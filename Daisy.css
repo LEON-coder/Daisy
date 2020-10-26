@@ -368,3 +368,79 @@ header {
     justify-content: center;
     align-self: center;
 }
+
+.section-2 {
+    display: flex;
+    width: 100%;
+    height: 641px;
+    background-image: url(img/section-2/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.grey_frame_background {
+    border-width: 8px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    opacity: 0.102;
+    width: 924px;
+    height: 368px;
+    z-index: 92;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.section-2__expand_your_business {
+    font-size: 51px;
+    font-family: "PFEncoreSansPro";
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.353;
+    text-align: center;
+    -moz-transform: matrix( 0.99977677677217, 0, 0, 0.99720698726576, 0, 0);
+    -webkit-transform: matrix( 0.99977677677217, 0, 0, 0.99720698726576, 0, 0);
+    -ms-transform: matrix( 0.99977677677217, 0, 0, 0.99720698726576, 0, 0);
+    z-index: 83;
+    position: absolute;
+    top: 273px;
+}
+
+.expand {
+    color: #fc635e;
+}
+
+.section-2__link {
+    font-size: 24px;
+    font-family: "PFEncoreSansPro";
+    color: rgb(252, 99, 94);
+    line-height: 1.083;
+    text-align: center;
+    -moz-transform: matrix( 0.99977677677217, 0, 0, 0.99720698726576, 0, 0);
+    -webkit-transform: matrix( 0.99977677677217, 0, 0, 0.99720698726576, 0, 0);
+    -ms-transform: matrix( 0.99977677677217, 0, 0, 0.99720698726576, 0, 0);
+    z-index: 86;
+    border-width: 3px;
+    border-color: rgb(252, 99, 94);
+    border-style: solid;
+    border-radius: 7px;
+    width: 199px;
+    height: 50px;
+    z-index: 85;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 55%;
+}
+
+.slider__section-2 {position: absolute;bottom: 18px;}
