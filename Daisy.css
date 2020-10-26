@@ -16,6 +16,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     flex-direction: column;
+    position: relative;
 }
 
 .header__top-nav {
@@ -33,6 +34,12 @@ header {
     align-items: center;
 }
 
+.header__icon-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .header__icon {
     display: flex;
     justify-self: center;
@@ -43,13 +50,26 @@ header {
 
 .header__icon-back {
     display: flex;
-    position: absolute;
     justify-content: center;
 }
 
+.header__top-text {
+    font-size: 40px;
+    font-family: "GothamPro";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 0.65;
+    text-align: center;
+    -moz-transform: matrix( 0.60175139668753, 0, 0, 0.60176991150442, 0, 0);
+    -webkit-transform: matrix( 0.60175139668753, 0, 0, 0.60176991150442, 0, 0);
+    -ms-transform: matrix( 0.60175139668753, 0, 0, 0.60176991150442, 0, 0);
+    z-index: 11;
+}
+
 .header__nav-list {
+    justify-content: center;
+    align-items: center;
     display: flex;
-    justify-content: space-around;
 }
 
 .header__item {
@@ -58,7 +78,276 @@ header {
     color: rgb(255, 255, 255);
     text-transform: uppercase;
     line-height: 2.25;
-    z-index: 14;
     margin-right: 44px;
+    border-bottom: solid transparent;
     list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.header__item:hover {
+    border-bottom: solid #fc635e;
+}
+
+.header__central_block {
+    display: flex;
+    justify-content: center;
+    margin-top: 218px;
+}
+
+.header_clients {
+    font-size: 51px;
+    font-family: "PFEncoreSansPro";
+    color: rgb(252, 99, 94);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.706;
+    z-index: 9;
+    display: flex;
+    align-items: center;
+}
+
+.header_clients:after {
+    content: "";
+    background-color: rgb(255, 255, 255);
+    opacity: 0.2;
+    width: 107px;
+    height: 8px;
+    z-index: 21;
+    display: flex;
+    margin-left: 11px;
+}
+
+.header_clients:before {
+    content: "";
+    background-color: rgb(255, 255, 255);
+    opacity: 0.2;
+    width: 107px;
+    height: 8px;
+    z-index: 21;
+    margin-right: 11px;
+    display: flex;
+}
+
+.header_clients-2 {
+    font-size: 24px;
+    font-family: "PFEncoreSansPro";
+    color: rgb(255, 255, 255);
+    line-height: 1.083;
+    text-align: center;
+    z-index: 18;
+    margin-top: 32px;
+}
+
+.header__link-block {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.header__link_clients {
+    font-size: 24px;
+    font-family: "PFEncoreSansPro";
+    color: rgb(252, 99, 94);
+    line-height: 1.083;
+    text-align: center;
+    z-index: 25;
+    border-width: 2px;
+    border-color: rgb(252, 99, 94);
+    border-style: solid;
+    border-radius: 7px;
+    width: 201px;
+    height: 52px;
+    z-index: 24;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 55px;
+    text-decoration: none;
+}
+
+.header__link_figures {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 60%;
+    right: 37%;
+}
+
+.header__link_mouse {
+    opacity: 0.2;
+    width: 47px;
+    height: 32px;
+    z-index: 29;
+    display: flex;
+}
+
+.header__link_rectangle {
+    margin-top: 15px;
+    display: flex;
+    align-self: center;
+}
+
+.header__link_anchor {
+    background-image: url("img/header/slider.png");
+    width: 28px;
+    height: 28px;
+    z-index: 31;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    bottom: 28px;
+    left: 50%;
+}
+
+.section-1 {
+    width: 100%;
+    height: 576px;
+    flex-direction: column;
+}
+
+.section-1__header {
+    font-size: 28px;
+    font-family: "PFEncoreSansPro";
+    color: rgb(134, 134, 134);
+    text-transform: uppercase;
+    line-height: 0.928;
+    font-weight: 600;
+    z-index: 36;
+    margin-top: 68px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    width: 380px;
+    height: 34px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-1__block-texts {
+    display: flex;
+    flex-direction: column;
+    width: 576px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.receive {
+    color: #fc635e;
+    font-size: 28px;
+    font-family: "PFEncoreSansPro";
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 0.928;
+    text-align: center;
+    z-index: 36;
+}
+
+.section-1__central-text {
+    font-size: 20px;
+    font-family: "PFEncoreSansPro";
+    color: rgb(173, 173, 173);
+    line-height: 1.3;
+    text-align: center;
+    width: 505px;
+    height: 45px;
+    z-index: 37;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 22px;
+}
+
+.section-1__advantages {
+    display: flex;
+    justify-content: center;
+    width: 946px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 81px;
+}
+
+.advantage {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.advantage_block-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.advantage_block-pic_figure {
+    display: flex;
+    justify-content: center;
+}
+
+.advantage_block-pic_figure-back {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.advantage_block-pic_form {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.advantage_clients {
+    font-size: 20px;
+    font-family: "PFEncoreSansPro";
+    color: rgb(134, 134, 134);
+    line-height: 1;
+    text-align: center;
+    -moz-transform: matrix( 1.00210526315789, 0, 0, 1.00000001563401, 0, 0);
+    -webkit-transform: matrix( 1.00210526315789, 0, 0, 1.00000001563401, 0, 0);
+    -ms-transform: matrix( 1.00210526315789, 0, 0, 1.00000001563401, 0, 0);
+    z-index: 66;
+    display: flex;
+    justify-content: center;
+    margin-top: 27px;
+    text-transform: uppercase;
+}
+
+.advantage_clients_text {
+    font-size: 15px;
+    font-family: "PFEncoreSansPro";
+    color: rgb(173, 173, 173);
+    line-height: 1.2;
+    text-align: center;
+    -moz-transform: matrix( 1.00210526315789, 0, 0, 1.000000015634, 0, 0);
+    -webkit-transform: matrix( 1.00210526315789, 0, 0, 1.000000015634, 0, 0);
+    -ms-transform: matrix( 1.00210526315789, 0, 0, 1.000000015634, 0, 0);
+    width: 217.902px;
+    z-index: 65;
+    margin-top: 23px;
+    font-weight: 400;
+}
+
+.background-hover {
+    display: none;
+}
+
+.advantage:hover .background-hover {
+    display: flex;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.advantage:hover .advantage_block-pic_figure-back {
+    display: none;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-self: center;
 }
