@@ -299,6 +299,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 5;
 }
 
 .advantage_clients {
@@ -346,6 +347,22 @@ header {
 
 .advantage:hover .advantage_block-pic_figure-back {
     display: none;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.background-hover-figure {
+    display: none;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.advantage:hover .background-hover-figure {
+    display: flex;
     position: absolute;
     display: flex;
     justify-content: center;
