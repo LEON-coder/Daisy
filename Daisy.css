@@ -443,4 +443,27 @@ header {
     top: 55%;
 }
 
-.slider__section-2 {position: absolute;bottom: 18px;}
+.slider__section-2 {
+    position: absolute;
+    bottom: 18px;
+}
+
+.section-3 {
+    height: 840px;
+    width: 100%;
+    display: flex;
+}
+
+.section-3__our_process {
+    font-size: 28px;
+    font-family: "PFEncoreSansPro";
+    color: rgb(134, 134, 134);
+    text-transform: uppercase;
+    line-height: 0.928;
+    text-align: center;
+    -moz-transform: matrix( 1.00070895438998, 0, 0, 1.00059544711972, 0, 0);
+    -webkit-transform: matrix( 1.00070895438998, 0, 0, 1.00059544711972, 0, 0);
+    -ms-transform: matrix( 1.00070895438998, 0, 0, 1.00059544711972, 0, 0);
+    z-index: 147;
+    text-transform: uppercase;
+}
