@@ -3096,10 +3096,10 @@ header {
         justify-content: center;
     }
     .section-8__our-team-block {
+        background: #f2f2f2;
         display: flex;
         width: 100%;
-        height: 577px;
-        background: url('img/section-8/office.png');
+        height: auto;
         position: relative;
         flex-direction: column;
     }
@@ -3107,7 +3107,7 @@ header {
         position: absolute;
         display: flex;
         width: 100%;
-        height: 577px;
+        height: 1130px;
         top: 0;
         left: 0;
         opacity: 0.8;
@@ -3141,6 +3141,7 @@ header {
         justify-content: center;
         align-items: center;
         margin-top: 86px;
+        flex-direction: column;
     }
     .personal_block {
         display: flex;
@@ -3149,14 +3150,16 @@ header {
         align-items: center;
         z-index: 4;
         width: 227px;
-        margin-right: 136px;
         margin-left: auto;
         margin-right: auto;
     }
     .steve_tracy {
         width: 150px;
+        margin-top: 50px;
     }
-    .helen_johns {}
+    .helen_johns {
+    margin-top: 50px;
+}
     .last_name {
         font-size: 28px;
         color: #565656;
