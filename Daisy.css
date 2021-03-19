@@ -1630,11 +1630,11 @@
     }
     
     .section-8_slider {
-    display: flex;
-    justify-content: center;
-    z-index: 5;
-    margin-top: 66px;
-}
+        display: flex;
+        justify-content: center;
+        z-index: 5;
+        margin-top: 66px;
+    }
     
     .last_name {
         font-size: 28px;
@@ -1677,6 +1677,17 @@
     .social-icons {
         margin-right: 17px;
     }
+    
+    .Block-Alan-Richman {
+        display: flex;
+        width: 100%;
+        height: 646px;
+        background: #ffffff;
+    }
+    
+    .Block-Alan-Richman__block-center {}
+    
+    .Block-Alan-Richman__block-arrows {}
     
     @media (min-width:320px) and (max-width: 374px) {
         header {
