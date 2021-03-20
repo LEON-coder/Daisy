@@ -1710,7 +1710,12 @@
         margin-left: 0;
     }
     
-    .Alan-Richman__name {}
+    .Alan-Richman__name {
+        color: #fc635e;
+        font-family: PFEncoreSansPro;
+        font-size: 28px;
+        font-weight: 600;
+    }
     
     .section-9__block-arrows {}
     
@@ -1744,7 +1749,12 @@
     
     .Block-Alan-Richman__block-center {}
     
-    .Alan-Richman__header {}
+    .Alan-Richman__header {
+        font-family: PFEncoreSansPro;
+        font-size: 28px;
+        font-weight: 600;
+        color: #818181;
+    }
     
     .Alan-Richman__header-block {
         margin-left: 70px;
@@ -1752,11 +1762,26 @@
         width: 320px;
     }
     
-    .Alan-Richman__CEO {}
+    .Alan-Richman__CEO {
+        font-family: PFEncoreSansPro;
+        font-size: 20px;
+        font-weight: 500;
+        color: #818181;
+    }
     
-    .Block-Alan-Richman__block-arrows {}
+    .Block-Alan-Richman__block-arrows {
+        margin-top: 52px;
+    }
     
     .section-9__Alan-Richman {}
+    
+    .Block-Alan-Richman__slider-left-arrow {
+        margin-right: 25px;
+    }
+    
+    .Block-Alan-Richman__slider-right-arrow {}
+    
+    .Block-Alan-Richman__address-block {}
     
     @media (min-width:320px) and (max-width: 374px) {
         header {
