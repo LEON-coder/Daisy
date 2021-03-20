@@ -1684,17 +1684,33 @@
         height: 646px;
         background: #ffffff;
         flex-direction: column;
-    }
-    
-    .section-9__wrapper {}
-    
-    .section-9__block-center {
-        display: flex;
-        justify-content: space-between;
         align-items: center;
     }
     
-    .section-9__text {}
+    .section-9__wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .section-9__block-center {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-top: 75px;
+        justify-content: center;
+    }
+    
+    .section-9__text {
+        width: 320px;
+        display: flex;
+        margin-right: 70px;
+        margin-left: 0;
+    }
+    
+    .Alan-Richman__name {}
     
     .section-9__block-arrows {}
     
@@ -1729,6 +1745,12 @@
     .Block-Alan-Richman__block-center {}
     
     .Alan-Richman__header {}
+    
+    .Alan-Richman__header-block {
+        margin-left: 70px;
+        margin-right: 0;
+        width: 320px;
+    }
     
     .Alan-Richman__CEO {}
     
