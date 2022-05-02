@@ -1,9 +1,8 @@
 @font-face {
     font-family: "PFEncoreSansPro-Bold";
-    src: url("fonts/PFEncoreSansPro-Bold/PFEncoreSansPro-Bold.woff2");
-    src: url("fonts/PFEncoreSansPro-Bold/PFEncoreSansPro-Bold.woff");
-    src: url("fonts/PFEncoreSansPro-Bold/PFEncoreSansPro-Bold.ttf");
-    src: local("./fonts/PFEncoreSansPro-Bold/PFEncoreSansPro-Bold.woff2");
+    src: url(fonts/PFEncoreSansPro-Bold/PFEncoreSansPro-Bold.woff2);
+    src: url(fonts/PFEncoreSansPro-Bold/PFEncoreSansPro-Bold.woff);
+    src: url(fonts/PFEncoreSansPro-Bold/PFEncoreSansPro-Bold.ttf);
 }
 
 @font-face {
@@ -1880,22 +1879,6 @@ header {
     margin-top: 19px;
 }
 
-.advantage_block-pic_figure-back--frame {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    z-index: 2;
-    align-self: center;
-}
-
-.advantage_block-picslider__section-5 {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    position: absolute;
-    bottom: 20px;
-}
-
 .social-icons-block {
     margin-top: 14px;
     width: 148px;
@@ -2311,17 +2294,18 @@ footer {
         margin-top: 50px;
         align-items: center;
     }
+
     .slider__section-1 {
-        background-image: url(./img/slider.png);
-        width: 28px;
-        height: 28px;
-        z-index: 31;
-        display: flex;
-        bottom: 20px;
-        position: absolute;
-        justify-self: center;
-        align-self: center;
-    }
+    background-image: url(./img/slider.png);
+    width: 28px;
+    height: 28px;
+    z-index: 31;
+    display: flex;
+    bottom: 20px;
+    position: absolute;
+    justify-self: center;
+    align-self: center;
+}
     .advantage:nth-child(2) {
         display: flex;
         justify-content: center;
@@ -3038,13 +3022,13 @@ footer {
         height: 100%;
     }
     .slider__section-4 {
-        margin-top: 0;
-        position: absolute;
-        bottom: 30px;
-        display: flex;
-        align-self: center;
-        justify-self: center;
-    }
+    margin-top: 0;
+    position: absolute;
+    bottom: 30px;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
     .Landing_Page_left-block {
         display: flex;
         justify-content: center;
@@ -3200,13 +3184,13 @@ footer {
         margin-top: 40px;
     }
     .slider__section-5 {
-        margin-top: 0;
-        position: absolute;
-        bottom: -70px;
-        display: flex;
-        align-self: center;
-        justify-self: center;
-    }
+    margin-top: 0;
+    position: absolute;
+    bottom: -70px;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
     .advertising-block_right-block {
         margin-top: 70px;
         margin-left: 0;
@@ -3352,12 +3336,12 @@ footer {
         align-items: center;
     }
     .slider__section-7 {
-        display: flex;
-        justify-content: center;
-        align-self: center;
-        position: absolute;
-        top: 2430px;
-    }
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    position: absolute;
+    top: 2430px;
+}
     .section-7_portfolio-header {
         font-size: 28px;
         font-family: "PFEncoreSansPro";
@@ -3430,7 +3414,7 @@ footer {
         justify-content: center;
         height: 30%;
         margin-right: 0;
-        width: 90%;
+        width: 100%;
         margin-bottom: 50px;
     }
     .section-7_bike {
@@ -3454,22 +3438,21 @@ footer {
     }
     .section-7_colors {
         display: flex;
-        width: 100%;
+        width: 90%;
     }
     .section-7_bus {
         display: flex;
         justify-content: center;
-        width: 100%;
+        width: 90%;
     }
     .section-7__row-2 {
         display: flex;
-        align-items: center;
+        align-items: baseline;
         margin-top: 0;
         flex-wrap: wrap;
         z-index: 4;
-        justify-content: center;
+        justify-content: space-between;
         width: 100%;
-        flex-direction: column;
     }
     .section-7_package {
         display: flex;
@@ -3485,7 +3468,6 @@ footer {
     }
     .link_section-7_package--long-picture:hover .section-7_background_hover {
         display: flex;
-        width: 90%;
     }
     .link_section-7_package--long-picture:hover .section-7_cross {
         display: flex;
@@ -3557,7 +3539,6 @@ footer {
     }
     .link_section-7_package:hover .section-7_package {
         display: flex;
-        width: 100%;
     }
     .link_section-7_package:hover .section-7_background_hover {
         display: flex;
@@ -3565,7 +3546,6 @@ footer {
         height: 100%;
         position: absolute;
         left: 0;
-        width: 100%;
     }
     .link_section-7_package:hover .section-7_cross {
         display: flex;
@@ -3575,7 +3555,7 @@ footer {
     }
     .section-7_page {
         display: flex;
-        width: 100%;
+        width: 90%;
     }
     .section-7_background_hover {
         display: none;
@@ -3674,12 +3654,12 @@ footer {
         flex-direction: column;
     }
     .slider__section-8 {
-        display: flex;
-        justify-content: center;
-        align-self: center;
-        position: absolute;
-        bottom: -100px;
-    }
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    position: absolute;
+    bottom: -100px;
+}
     .personal_block {
         display: flex;
         justify-content: center;
@@ -5146,6 +5126,7 @@ footer {
     .bike:hover .section-7_cross {
         display: flex;
     }
+
     .section-7_link-block {
         display: flex;
         justify-content: center;
@@ -5155,12 +5136,12 @@ footer {
         flex-wrap: wrap;
     }
     .slider__section-7 {
-        display: flex;
-        justify-content: center;
-        align-self: center;
-        position: absolute;
-        top: 2430px;
-    }
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    position: absolute;
+    top: 2430px;
+}
     .section-7_link {
         font-size: 20px;
         font-family: "PFEncoreSansPro";
@@ -5310,12 +5291,12 @@ footer {
         flex-direction: column;
     }
     .slider__section-8 {
-        display: flex;
-        justify-content: center;
-        align-self: center;
-        position: absolute;
-        bottom: -100px;
-    }
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    position: absolute;
+    bottom: -100px;
+}
     .personal_block {
         display: flex;
         justify-content: center;
@@ -5536,13 +5517,13 @@ footer {
         top: -78px;
     }
     .slider__section-4 {
-        margin-top: 0;
-        position: absolute;
-        bottom: 30px;
-        display: flex;
-        align-self: center;
-        justify-self: center;
-    }
+    margin-top: 0;
+    position: absolute;
+    bottom: 30px;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
     .section-5__left-block {
         display: flex;
         justify-content: center;
@@ -6514,11 +6495,12 @@ footer {
         align-items: center;
         height: auto;
     }
+
     .slider__section-4 {
-        display: flex;
-        align-self: center;
-        justify-self: center;
-    }
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
     .Landing_Page_left-block {
         display: flex;
         justify-content: center;
@@ -6805,12 +6787,12 @@ footer {
         align-items: center;
     }
     .slider__section-7 {
-        display: flex;
-        justify-content: center;
-        align-self: center;
-        position: absolute;
-        bottom: 10px;
-    }
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    position: absolute;
+    bottom: 10px;
+}
     .section-7_portfolio-header {
         font-size: 28px;
         font-family: "PFEncoreSansPro";
@@ -7127,12 +7109,12 @@ footer {
         flex-direction: row;
     }
     .slider__section-8 {
-        display: flex;
-        justify-content: center;
-        align-self: center;
-        position: absolute;
-        bottom: -60px;
-    }
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    position: absolute;
+    bottom: -60px;
+}
     .personal_block {
         display: flex;
         justify-content: center;
@@ -7391,17 +7373,19 @@ footer {
         display: flex;
         align-self: center;
     }
+
     .slider__header {
-        background-image: url(./img/slider.png);
-        width: 28px;
-        height: 28px;
-        z-index: 31;
-        display: flex;
-        margin-left: auto;
-        margin-right: auto;
-        bottom: 28px;
-        position: absolute;
-    }
+    background-image: url(./img/slider.png);
+    width: 28px;
+    height: 28px;
+    z-index: 31;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 28px;
+    position: absolute;
+}
+   
     .section-1 {
         width: 100%;
         flex-direction: column;
@@ -7465,16 +7449,16 @@ footer {
         flex-direction: row;
     }
     .slider__section-1 {
-        background-image: url(./img/slider.png);
-        width: 28px;
-        height: 28px;
-        z-index: 31;
-        display: flex;
-        bottom: -50px;
-        position: absolute;
-        justify-self: center;
-        align-self: center;
-    }
+    background-image: url(./img/slider.png);
+    width: 28px;
+    height: 28px;
+    z-index: 31;
+    display: flex;
+    bottom: -50px;
+    position: absolute;
+    justify-self: center;
+    align-self: center;
+}
     .advantage:nth-child(2) {
         display: flex;
         justify-content: center;
@@ -8140,13 +8124,14 @@ footer {
         height: auto;
         margin-top: 0px;
     }
+
     .slider__section-4 {
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 0;
-        position: absolute;
-        bottom: 20px;
-    }
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    position: absolute;
+    bottom: 20px;
+}
     .section-4__header {
         font-size: 28px;
         font-family: "PFEncoreSansPro";
@@ -8303,12 +8288,12 @@ footer {
         margin-top: 0;
     }
     .slider__section-5 {
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 0;
-        position: absolute;
-        bottom: 20px;
-    }
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    position: absolute;
+    bottom: 20px;
+}
     .advertising-block_right-block {
         margin-top: -40px;
         display: flex;
@@ -8453,13 +8438,14 @@ footer {
         flex-direction: column;
         align-items: center;
     }
+
     .slider__section-7 {
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 0;
-        position: absolute;
-        bottom: 20px;
-    }
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    position: absolute;
+    bottom: 20px;
+}
     .section-7_portfolio-header {
         font-size: 28px;
         font-family: "PFEncoreSansPro";
@@ -8775,15 +8761,16 @@ footer {
         margin-top: 76px;
         flex-direction: row;
     }
+
     .slider__section-8 {
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 0;
-        position: absolute;
-        bottom: 20px;
-        display: flex;
-        align-self: center;
-    }
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    align-self: center;
+}
     .personal_block {
         display: flex;
         justify-content: center;
@@ -10556,7 +10543,7 @@ footer {
     }
     .header__item {
         font-size: 16px;
-        font-family: "PFEncoreSansPro", thin;
+        font-family: "PFEncoreSansPro";
         color: rgb(255, 255, 255);
         text-transform: uppercase;
         line-height: 2.25;
@@ -10737,14 +10724,15 @@ footer {
         flex-direction: row;
         margin-bottom: 100px;
     }
+
     .slider__section-1 {
-        background-image: url(./img/slider.png);
-        width: 28px;
-        height: 28px;
-        z-index: 31;
-        display: flex;
-        bottom: 20px;
-    }
+    background-image: url(./img/slider.png);
+    width: 28px;
+    height: 28px;
+    z-index: 31;
+    display: flex;
+    bottom: 20px;
+}
     .advantage:nth-child(2) {
         display: flex;
         justify-content: center;
@@ -11574,10 +11562,6 @@ footer {
         height: auto;
         margin-top: 0px;
     }
-    element.style {
-        display: flex !important;
-        visibility: visible !important;
-    }
     .advertising-block_right-block {
         margin-top: 0;
         margin-left: 0;
@@ -12098,4 +12082,18 @@ footer {
     }
 }
 
-"
+.advantage_block-pic_figure-back--frame {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    align-self: center;
+}
+
+.advantage_block-picslider__section-5 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    position: absolute;
+    bottom: 20px;
+}
