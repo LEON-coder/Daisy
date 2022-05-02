@@ -1,22 +1,25 @@
 @font-face {
     font-family: "PFEncoreSansPro-Bold";
-    src: url(fonts/PFEncoreSansPro-Bold/PFEncoreSansPro-Bold.woff2);
-    src: url(fonts/PFEncoreSansPro-Bold/PFEncoreSansPro-Bold.woff);
-    src: url(fonts/PFEncoreSansPro-Bold/PFEncoreSansPro-Bold.ttf);
+    src: url("fonts/PFEncoreSansPro-Bold/PFEncoreSansPro-Bold.woff2");
+    src: url("fonts/PFEncoreSansPro-Bold/PFEncoreSansPro-Bold.woff");
+    src: url("fonts/PFEncoreSansPro-Bold/PFEncoreSansPro-Bold.ttf");
+    src: local("./fonts/PFEncoreSansPro-Bold/PFEncoreSansPro-Bold.woff2");
 }
 
 @font-face {
     font-family: "PFEncoreSansPro-Medium";
-    src: url(fonts/PFEncoreSansPro-Medium/PFEncoreSansPro-Medium.woff2);
-    src: url(fonts/PFEncoreSansPro-Medium/PFEncoreSansPro-Medium.woff);
-    src: url(fonts/PFEncoreSansPro-Medium/PFEncoreSansPro-Medium.ttf);
+    src: url("fonts/PFEncoreSansPro-Medium/PFEncoreSansPro-Medium.woff2");
+    src: url("fonts/PFEncoreSansPro-Medium/PFEncoreSansPro-Medium.woff");
+    src: url("fonts/PFEncoreSansPro-Medium/PFEncoreSansPro-Medium.ttf");
+    src: local("./fonts/PFEncoreSansPro-Medium/PFEncoreSansPro-Medium.woff2");
 }
 
 @font-face {
     font-family: "PFEncoreSansPro-Light";
-    src: url(fonts/PFEncoreSansPro-Light/PFEncoreSansPro-Light.woff2);
-    src: url(fonts/PFEncoreSansPro-Light/PFEncoreSansPro-Light.woff);
-    src: url(fonts/PFEncoreSansPro-Light/PFEncoreSansPro-Light.ttf);
+    src: url("fonts/PFEncoreSansPro-Light/PFEncoreSansPro-Light.woff2");
+    src: url("fonts/PFEncoreSansPro-Light/PFEncoreSansPro-Light.woff");
+    src: url("fonts/PFEncoreSansPro-Light/PFEncoreSansPro-Light.ttf");
+    src: local("./fonts/PFEncoreSansPro-Light/PFEncoreSansPro-Light.woff2");
 }
 
 * {
@@ -1879,22 +1882,6 @@ header {
     margin-top: 19px;
 }
 
-.advantage_block-pic_figure-back--frame {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    z-index: 2;
-    align-self: center;
-}
-
-.advantage_block-picslider__section-5 {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    position: absolute;
-    bottom: 20px;
-}
-
 .social-icons-block {
     margin-top: 14px;
     width: 148px;
@@ -3427,11 +3414,17 @@ footer {
         position: relative;
         display: flex;
         justify-content: center;
-        height: 30%;
+        height: auto;
+        align-items: center;
         margin-right: 0;
-        width: 100%;
-        margin-bottom: 50px;
+        flex-direction: column;
+        width: 90%;
+        margin-bottom: 20px;
     }
+    .width_320 {
+        width: 90%;
+    }
+    .width--picture {}
     .section-7_bike {
         position: relative;
         width: 100%;
@@ -3453,20 +3446,21 @@ footer {
     }
     .section-7_colors {
         display: flex;
-        width: 90%;
+        width: 100%;
+        height: 100%;
     }
     .section-7_bus {
         display: flex;
         justify-content: center;
-        width: 90%;
+        width: 100%;
     }
     .section-7__row-2 {
         display: flex;
-        align-items: baseline;
+        align-items: center;
         margin-top: 0;
-        flex-wrap: wrap;
+        flex-direction: column;
         z-index: 4;
-        justify-content: space-between;
+        justify-content: center;
         width: 100%;
     }
     .section-7_package {
@@ -3477,12 +3471,14 @@ footer {
         position: relative;
         display: flex;
         justify-content: center;
-        height: 20%;
+        height: auto;
         margin-bottom: 0;
         width: 100%;
     }
     .link_section-7_package--long-picture:hover .section-7_background_hover {
         display: flex;
+        width: 90%;
+        height: 100%;
     }
     .link_section-7_package--long-picture:hover .section-7_cross {
         display: flex;
@@ -3501,10 +3497,12 @@ footer {
     .bike {
         margin-right: 0;
         width: 90%;
-        margin-bottom: 50px;
+        margin-bottom: 20px;
     }
     .bike:hover .section-7_background_hover {
         display: flex;
+        width: 100%;
+        height: 100%;
     }
     .bike:hover .section-7__text {
         display: flex;
@@ -3554,11 +3552,15 @@ footer {
     }
     .link_section-7_package:hover .section-7_package {
         display: flex;
+        width: 100%;
     }
     .link_section-7_package:hover .section-7_background_hover {
         display: flex;
         background: #f98381;
         height: 100%;
+        justify-content: center;
+        align-self: center;
+        width: 100%;
         position: absolute;
         left: 0;
     }
@@ -3570,18 +3572,19 @@ footer {
     }
     .section-7_page {
         display: flex;
-        width: 90%;
+        width: 100%;
     }
     .section-7_background_hover {
         display: none;
         background: #f98381;
-        width: 100%;
-        height: 100%;
+        width: 90%;
+        height: 90%;
         position: absolute;
         opacity: 0.8;
     }
     .link_section-7_package:last-child {
         margin-right: 0;
+        width: 90%;
     }
     .colors-pic {
         width: 222px;
@@ -11569,10 +11572,6 @@ footer {
         height: auto;
         margin-top: 0px;
     }
-    element.style {
-        display: flex !important;
-        visibility: visible !important;
-    }
     .advertising-block_right-block {
         margin-top: 0;
         margin-left: 0;
@@ -12091,4 +12090,20 @@ footer {
         align-items: center;
         margin-top: 0;
     }
+}
+
+.advantage_block-pic_figure-back--frame {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    align-self: center;
+}
+
+.advantage_block-picslider__section-5 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    position: absolute;
+    bottom: 20px;
 }
