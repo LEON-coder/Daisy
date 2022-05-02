@@ -1,22 +1,25 @@
 @font-face {
     font-family: "PFEncoreSansPro-Bold";
-    src: url(fonts/PFEncoreSansPro-Bold/PFEncoreSansPro-Bold.woff2);
-    src: url(fonts/PFEncoreSansPro-Bold/PFEncoreSansPro-Bold.woff);
-    src: url(fonts/PFEncoreSansPro-Bold/PFEncoreSansPro-Bold.ttf);
+    src: url("fonts/PFEncoreSansPro-Bold/PFEncoreSansPro-Bold.woff2");
+    src: url("fonts/PFEncoreSansPro-Bold/PFEncoreSansPro-Bold.woff");
+    src: url("fonts/PFEncoreSansPro-Bold/PFEncoreSansPro-Bold.ttf");
+    src: local("./fonts/PFEncoreSansPro-Bold/PFEncoreSansPro-Bold.woff2");
 }
 
 @font-face {
     font-family: "PFEncoreSansPro-Medium";
-    src: url(fonts/PFEncoreSansPro-Medium/PFEncoreSansPro-Medium.woff2);
-    src: url(fonts/PFEncoreSansPro-Medium/PFEncoreSansPro-Medium.woff);
-    src: url(fonts/PFEncoreSansPro-Medium/PFEncoreSansPro-Medium.ttf);
+    src: url("fonts/PFEncoreSansPro-Medium/PFEncoreSansPro-Medium.woff2");
+    src: url("fonts/PFEncoreSansPro-Medium/PFEncoreSansPro-Medium.woff");
+    src: url("fonts/PFEncoreSansPro-Medium/PFEncoreSansPro-Medium.ttf");
+    src: local("./fonts/PFEncoreSansPro-Medium/PFEncoreSansPro-Medium.woff2");
 }
 
 @font-face {
     font-family: "PFEncoreSansPro-Light";
-    src: url(fonts/PFEncoreSansPro-Light/PFEncoreSansPro-Light.woff2);
-    src: url(fonts/PFEncoreSansPro-Light/PFEncoreSansPro-Light.woff);
-    src: url(fonts/PFEncoreSansPro-Light/PFEncoreSansPro-Light.ttf);
+    src: url("fonts/PFEncoreSansPro-Light/PFEncoreSansPro-Light.woff2");
+    src: url("fonts/PFEncoreSansPro-Light/PFEncoreSansPro-Light.woff");
+    src: url("fonts/PFEncoreSansPro-Light/PFEncoreSansPro-Light.ttf");
+    src: local("./fonts/PFEncoreSansPro-Light/PFEncoreSansPro-Light.woff2");
 }
 
 * {
