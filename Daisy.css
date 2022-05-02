@@ -1,8 +1,9 @@
 @font-face {
     font-family: "PFEncoreSansPro-Bold";
-    src: url(fonts/PFEncoreSansPro-Bold/PFEncoreSansPro-Bold.woff2);
-    src: url(fonts/PFEncoreSansPro-Bold/PFEncoreSansPro-Bold.woff);
-    src: url(fonts/PFEncoreSansPro-Bold/PFEncoreSansPro-Bold.ttf);
+    src: url("fonts/PFEncoreSansPro-Bold/PFEncoreSansPro-Bold.woff2");
+    src: url("fonts/PFEncoreSansPro-Bold/PFEncoreSansPro-Bold.woff");
+    src: url("fonts/PFEncoreSansPro-Bold/PFEncoreSansPro-Bold.ttf");
+    src: local("./fonts/PFEncoreSansPro-Bold/PFEncoreSansPro-Bold.woff2");
 }
 
 @font-face {
@@ -3429,7 +3430,7 @@ footer {
         justify-content: center;
         height: 30%;
         margin-right: 0;
-        width: 100%;
+        width: 90%;
         margin-bottom: 50px;
     }
     .section-7_bike {
@@ -3453,21 +3454,22 @@ footer {
     }
     .section-7_colors {
         display: flex;
-        width: 90%;
+        width: 100%;
     }
     .section-7_bus {
         display: flex;
         justify-content: center;
-        width: 90%;
+        width: 100%;
     }
     .section-7__row-2 {
         display: flex;
-        align-items: baseline;
+        align-items: center;
         margin-top: 0;
         flex-wrap: wrap;
         z-index: 4;
-        justify-content: space-between;
+        justify-content: center;
         width: 100%;
+        flex-direction: column;
     }
     .section-7_package {
         display: flex;
@@ -3483,6 +3485,7 @@ footer {
     }
     .link_section-7_package--long-picture:hover .section-7_background_hover {
         display: flex;
+        width: 90%;
     }
     .link_section-7_package--long-picture:hover .section-7_cross {
         display: flex;
@@ -3554,6 +3557,7 @@ footer {
     }
     .link_section-7_package:hover .section-7_package {
         display: flex;
+        width: 100%;
     }
     .link_section-7_package:hover .section-7_background_hover {
         display: flex;
@@ -3561,6 +3565,7 @@ footer {
         height: 100%;
         position: absolute;
         left: 0;
+        width: 100%;
     }
     .link_section-7_package:hover .section-7_cross {
         display: flex;
@@ -3570,7 +3575,7 @@ footer {
     }
     .section-7_page {
         display: flex;
-        width: 90%;
+        width: 100%;
     }
     .section-7_background_hover {
         display: none;
@@ -10551,7 +10556,7 @@ footer {
     }
     .header__item {
         font-size: 16px;
-        font-family: "PFEncoreSansPro";
+        font-family: "PFEncoreSansPro", thin;
         color: rgb(255, 255, 255);
         text-transform: uppercase;
         line-height: 2.25;
@@ -12092,3 +12097,5 @@ footer {
         margin-top: 0;
     }
 }
+
+"
