@@ -6885,7 +6885,6 @@
             height: auto;
             justify-content: space-around;
             margin-top: 70px;
-            flex-wrap: wrap;
         }
         .link_section-7_package {
             position: relative;
@@ -11831,6 +11830,7 @@
         .link_section-7_package {
             position: relative;
             display: flex;
+            margin-top: 0;
             justify-content: center;
             width: 230px;
             margin-bottom: 0px;
@@ -11869,7 +11869,6 @@
             margin-top: 40px;
             z-index: 4;
             flex-direction: row;
-            flex-wrap: nowrap;
         }
         .section-7_package {
             display: flex;
