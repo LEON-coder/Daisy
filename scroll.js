@@ -1,12 +1,10 @@
 $(document).ready(function() {
-    $("a.scroll").click(function() {
-        var elementClick = $(this).attr("a.href");
-        var destination = $(elementClick).offset().top;
-        if ($.browser.safari) {
-            $('body').animate({ scrollTop: destination }, 1100); //1100 - скорость
-        } else {
-            $('html').animate({ scrollTop: destination }, 1100);
-        }
+    $("a[href*='#']").on("click", function(e) {
+        var anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: $(anchor.attr('href')).offset().top
+        }, 1200);
+        e.preventDefault();
         return false;
     });
 });
