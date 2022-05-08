@@ -1,0 +1,295 @@
+[1mdiff --git a/Daisy.css b/Daisy.css[m
+[1mindex 9d4dc3a..fb36640 100644[m
+[1m--- a/Daisy.css[m
+[1m+++ b/Daisy.css[m
+[36m@@ -1,12011 +1,12085 @@[m
+[31m-                                            @font-face {[m
+[31m-                                            font-family: "PFEncoreSansPro-Bold";[m
+[31m-                                            src: url("fonts/PFEncoreSansPro-Bold/PFEncoreSansPro-Bold.woff2");[m
+[31m-                                            src: url("fonts/PFEncoreSansPro-Bold/PFEncoreSansPro-Bold.woff");[m
+[31m-                                            src: url("fonts/PFEncoreSansPro-Bold/PFEncoreSansPro-Bold.ttf");[m
+[31m-                                            src: local("./fonts/PFEncoreSansPro-Bold/PFEncoreSansPro-Bold.woff2");[m
+[31m-                                        }[m
+[31m-                                        [m
+[31m-                                        @font-face {[m
+[31m-                                            font-family: "PFEncoreSansPro-Medium";[m
+[31m-                                            src: url("fonts/PFEncoreSansPro-Medium/PFEncoreSansPro-Medium.woff2");[m
+[31m-                                            src: url("fonts/PFEncoreSansPro-Medium/PFEncoreSansPro-Medium.woff");[m
+[31m-                                            src: url("fonts/PFEncoreSansPro-Medium/PFEncoreSansPro-Medium.ttf");[m
+[31m-                                            src: local("./fonts/PFEncoreSansPro-Medium/PFEncoreSansPro-Medium.woff2");[m
+[31m-                                        }[m
+[31m-                                        [m
+[31m-                                        @font-face {[m
+[31m-                                            font-family: "PFEncoreSansPro-Light";[m
+[31m-                                            src: url("fonts/PFEncoreSansPro-Light/PFEncoreSansPro-Light.woff2");[m
+[31m-                                            src: url("fonts/PFEncoreSansPro-Light/PFEncoreSansPro-Light.woff");[m
+[31m-                                            src: url("fonts/PFEncoreSansPro-Light/PFEncoreSansPro-Light.ttf");[m
+[31m-                                            src: local("./fonts/PFEncoreSansPro-Light/PFEncoreSansPro-Light.woff2");[m
+[31m-                                        }[m
+[31m-                                        [m
+[31m-                                        * {[m
+[31m-                                            padding: 0;[m
+[31m-                                            margin: 0;[m
+[31m-                                        }[m
+[31m-                                        [m
+[31m-                                        body {[m
+[31m-                                            width: 100%;[m
+[31m-                                            box-sizing: border-box;[m
+[31m-                                        }[m
+[31m-                                        [m
+[31m-                                        header {[m
+[31m-                                            width: 100%;[m
+[31m-                                            height: 765px;[m
+[31m-                                            display: flex;[m
+[31m-                                            background-image: url('img/header/back.jpg');[m
+[31m-                                            background-repeat: no-repeat;[m
+[31m-                                            background-size: cover;[m
+[31m-                                            flex-direction: column;[m
+[31m-                                            position: relative;[m
+[31m-                                        }[m
+[31m-                                        [m
+[31m-                                        .header__top-nav {[m
+[31m-                                            display: flex;[m
+[31m-                                            width: 945px;[m
+[31m-                                            margin-left: auto;[m
+[31m-                                            margin-right: auto;[m
+[31m-                                            justify-content: space-between;[m
+[31m-                                            margin-top: 52px;[m
+[31m-                                        }[m
+[31m-                                        [m
+[31m-                                        .header__logo {[m
+[31m-                                            display: flex;[m
+[31m-                                            justify-content: center;[m
+[31m-                                            align-items: center;[m
+[31m-                                        }[m
+[31m-                                        [m
+[31m-                                        .header__icon-block {[m
+[31m-                                            display: flex;[m
+[31m-                                            justify-content: center;[m
+[31m-                                            align-items: center;[m
+[31m-                                        }[m
+[31m-                                        [m
+[31m-                                        .header__icon {[m
+[31m-                                            display: flex;[m
+[31m-                                            justify-self: center;[m
+[31m-                                            justify-content: center;[m
+[31m-                                            position: absolute;[m
+[31m-                                            z-index: 7;[m
+[31m-                                        }[m
+[31m-                                        [m
+[31m-                                        .header__icon-back {[m
+[31m-                                            display: flex;[m
+[31m-                                            justify-content: center;[m
+[31m-                                        }[m
+[31m-                                        [m
+[31m-                                        .header__top-text {[m
+[31m-                                            font-size: 40px;[m
+[31m-                                            font-family: "GothamPro";[m
+[31m-                                            color: rgb(255, 255, 255);[m
+[31m-                                            font-weight: bold;[m
+[31m-                                            line-height: 0.65;[m
+[31m-                                            text-align: center;[m
+[31m-                                            -moz-transform: matrix(0.60175139668753, 0, 0, 0.60176991150442, 0, 0);[m
+[31m-                                            -webkit-transform: matrix(0.60175139668753, 0, 0, 0.60176991150442, 0, 0);[m
+[31m-                                            -ms-transform: matrix(0.60175139668753, 0, 0, 0.60176991150442, 0, 0);[m
+[31m-                                            z-index: 11;[m
+[31m-                                        }[m
+[31m-                                        [m
+[31m-                                        .header__nav-list {[m
+[31m-                                            justify-content: center;[m
+[31m-                                            align-items: center;[m
+[31m-                                            display: flex;[m
+[31m-                                        }[m
+[31m-                                        [m
+[31m-                                        .header__item {[m
+[31m-                                            font-size: 16px;[m
+[31m-                                            font-family: "PFEncoreSansPro";[m
+[31m-                                            color: rgb(255, 255, 255);[m
+[31m-                                            text-transform: uppercase;[m
+[31m-                                            line-height: 2.25;[m
+[31m-                                            margin-right: 44px;[m
+[31m-                                            border-bottom: solid transparent;[m
+[31m-                                            list-style: none;[m
+[31m-                                            display: flex;[m
+[31m-                                            align-items: center;[m
+[31m-                                        }[m
+[31m-                                        [m
+[31m-                                        .header__item:hover {[m
+[31m-                                            border-bottom: solid #fc635e;[m
+[31m-                                        }[m
+[31m-                                        [m
+[31m-                                        .header__central_block {[m
+[31m-                                            display: flex;[m
+[31m-                                            justify-content: center;[m
+[31m-                                            margin-top: 218px;[m
+[31m-                                        }[m
+[31m-                                        [m
+[31m-                                        .header_clients {[m
+[31m-                                            font-size: 51px;[m
+[31m-                                            font-family: "PFEncoreSansPro";[m
+[31m-                                            color: rgb(252, 99, 94);[m
+[31m-                                            font-weight: bold;[m
+[31m-                                            text-transform: uppercase;[m
+[31m-                                            line-height: 0.706;[m
+[31m-                                            z-index: 9;[m
+[31m-                                            display: flex;[m
+[31m-                                            align-items: center;[m
+[31m-                                        }[m
+[31m-                                        [m
+[31m-                                        .header_clients:after {[m
+[31m-                                            content: "";[m
+[31m-                                            background-color: rgb(255, 255, 255);[m
+[31m-                                            opacity: 0.2;[m
+[31m-                                            width: 107px;[m
+[31m-                                            height: 8px;[m
+[31m-                                            z-index: 21;[m
+[31m-                                            display: flex;[m
+[31m-                                            margin-left: 11px;[m
+[31m-                                        }[m
+[31m-                                        [m
+[31m-                                        .header_clients:before {[m
+[31m-                                            content: "";[m
+[31m-                                            background-color: rgb(255, 255, 255);[m
+[31m-                                            opacity: 0.2;[m
+[31m-                                            width: 107px;[m
+[31m-                                            height: 8px;[m
+[31m-                                            z-index: 21;[m
+[31m-                                            margin-right: 11px;[m
+[31m-                                            display: flex;[m
+[31m-                                        }[m
+[31m-                                        [m
+[31m-                                        .header_clients-2 {[m
+[31m-                                            font-size: 24px;[m
+[31m-                                            font-family: "PFEncoreSansPro";[m
+[31m-                                            color: rgb(255, 255, 255);[m
+[31m-                                            line-height: 1.083;[m
+[31m-                                            text-align: center;[m
+[31m-                                            z-index: 18;[m
+[31m-                                            margin-top: 32px;[m
+[31m-                                        }[m
+[31m-                                        [m
+[31m-                                        .header__link-block {[m
+[31m-                                            display: flex;[m
+[31m-                                            justify-content: center;[m
+[31m-                                            position: relative;[m
+[31m-                                        }[m
+[31m-                                        [m
+[31m-                                        .header__link_clients {[m
+[31m-                                            font-size: 24px;[m
+[31m-                                            font-family: "PFEncoreSansPro";[m
+[31m-                                            color: rgb(252, 99, 94);[m
+[31m-                                            line-height: 1.083;[m
+[31m-                                            text-align: center;[m
+[31m-                                            z-index: 25;[m
+[31m-                                            border-width: 2px;[m
+[31m-                                            border-color: rgb(252, 99, 94);[m
+[31m-                                            border-style: solid;[m
+[31m-                                            border-color: rgb(353, 159, 164);[m
+[31m-                                            border-radius: 7px;[m
+[31m-                                            width: 201px;[m
+[31m-                                            height: 52px;[m
+[31m-                                            display: flex;[m
+[31m-                                            justify-content: center;[m
+[31m-                                            align-items: center;[m
+[31m-                                            margin-left: auto;[m
+[31m-                                            margin-right: auto;[m
+[31m-                                            margin-top: 55px;[m
+[31m-                                            box-shadow: 0 0 0 rgb(204 169 44 / 100%);[m
+[31m-                                            animation: radial-pulse 1s infinite;[m
+[31m-                                        }[m
+[31m-                                        [m
+[31m-                                        .header__link_clients:hover {[m
+[31m-                                            animation: none;[m
+[31m-                                        }[m
+[31m-                                        [m
+[31m-                                        @keyframes radial-pulse {[m
+[31m-                                            0% {[m
+[31m-                                                box-shadow: 0 0 0 0px rgb(23 22 22 / 50%);[m
+[31m-                                            }[m
+[31m-                                            100% {[m
+[31m-                                                box-shadow: 0 0 0 40px rgba(255, 255, 255, 0);[m
+[31m-                                            }[m
+[31m-                                        }[m
+[31m-                                        [m
+[31m-                                        .header__link_figures {[m
+[31m-                                            display: flex;[m
+[31m-                                            justify-content: center;[m
+[31m-                                            position: absolute;[m
+[31m-                                            top: 60%;[m
+[31m-                                            right: 37%;[m
+[31m-                                        }[m
+[31m-                                        [m
+[31m-                                        .header__link_mouse {[m
+[31m-                                            opacity: 0.2;[m
+[31m-                                            width: 47px;[m
+[31m-                                            height: 32px;[m
+[31m-                                            z-index: 29;[m
+[31m-                                            display: flex;[m
+[31m-                                        }[m
+[31m-                                        [m
+[31m-                                        .header__link_rectangle {[m
+[31m-                                            margin-top: 15px;[m
+[31m-                                            display: flex;[m
+[31m-                                            align-self: center;[m
+[31m-                                        }[m
+[31m-                                        [m
+[31m-                                        .slider__header {[m
+[31m-                                            background-image: url("./img/slider.png");[m
+[31m-                                            width: 28px;[m
+[31m-                                            height: 28px;[m
+[31m-                                            z-index: 31;[m
+[31m-                                            display: flex;[m
+[31m-                                            margin-left: auto;[m
+[31m-                                            margin-right: auto;[m
+[31m-                                            bottom: 28px;[m
+[31m-                                            position: absolute;[m
+[31m-                                        }[m
+[31m-                                        [m
+[31m-                                        .section-1 {[m
+[31m-                                            width: 100%;[m
+[31m-                                            height: 580px;[m
+[31m-                                            flex-direction: column;[m
+[31m-                                            margin-bottom: 95px;[m
+[31m-                                        }[m
+[31m-                                        [m
+[31m-                                        .section-1__header {[m
+[31m-                                            font-size: 28px;[m
+[31m-                                            font-family: "PFEncoreSansPro";[m
+[31m-                                            color: rgb(134, 134, 134);[m
+[31m-                                            text-transform: uppercase;[m
+[31m-                                            line-height: 0.928;[m
+[31m-                                            font-weight: 600;[m
+[31m-                                            z-index: 36;[m
+[31m-                                            margin-top: 68px;[m
+[31m-                                            border-bottom: 1px solid black;[m
+[31m-                                            text-align: center;[m
+[31m-                                            width: 380px;[m
+[31m-                                            height: 34px;[m
+[31m-                                            margin-left: auto;[m
+[31m-                                            margin-right: auto;[m
+[31m-                                        }[m
+[31m-                                        [m
+[31m-                                        .section-1__block-texts {[m
+[31m-                                            display: flex;[m
+[31m-                                            flex-direction: column;[m
+[31m-                                            width: 576px;[m
+[31m-                                            margin-left: auto;[m
+[31m-                                            margin-right: auto;[m
+[31m-                                        }[m
+[31m-                                        [m
+[31m-                                        .receive {[m
+[31m-                                            color: #fc635e;[m
+[31m-                                            font-size: 28px;[m
+[31m-                                            font-family: "PFEncoreSansPro";[m
+[31m-                                            font-weight: 600;[m
+[31m-                                            text-transform: uppercase;[m
+[31m-                                            line-height: 0.928;[m
+[31m-                                            text-align: center;[m
+[31m-                                            z-index: 36;[m
+[31m-                                        }[m
+[31m-                                        [m
+[31m-                                        .section-1__central-text {[m
+[31m-                                            font-size: 20px;[m
+[31m-                                            font-family: "PFEncoreSansPro";[m
+[31m-                                            color: rgb(173, 173, 173);[m
+[3
