@@ -3810,7 +3810,7 @@ footer {
     }
 }
 
-@media(min-width:375px) {
+@media(min-width:375px) and(max-width: 424px) {
     header {
         width: 100%;
         height: 765px;
