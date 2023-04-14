@@ -216,7 +216,7 @@ header {
 
 @keyframes radial-pulse {
     0% {
-        box-shadow: 0 0 0 0 rgb(23 22 22 / 50%);
+        box-shadow: 0 0 0 0px rgb(23 22 22 / 50%);
     }
 
     100% {
@@ -525,7 +525,7 @@ header {
 }
 
 .slider__section-1 {
-    background-image: url('./img/slider.png');
+    background-image: url(./img/slider.png);
     width: 28px;
     height: 28px;
     z-index: 31;
@@ -578,7 +578,7 @@ header {
     display: flex;
     width: 100%;
     height: 641px;
-    background-image: url('img/section-2/background.png');
+    background-image: url(img/section-2/background.png);
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: center;
@@ -1134,7 +1134,7 @@ header {
     align-items: center;
     position: relative;
     top: 90px;
-    left: 0;
+    left: 0px;
 }
 
 .section-3__thourth-step_ellipse-bottom {
@@ -1587,8 +1587,11 @@ header {
     margin-right: auto;
     margin-top: 77px;
     border-top: 1px solid #adadad;
-    padding: 25px 12px;
+    padding-top: 25px;
     border-bottom: 1px solid #adadad;
+    padding-bottom: 25px;
+    padding-left: 12px;
+    padding-right: 12px;
     width: 940px;
     justify-content: space-around;
 }
@@ -2135,7 +2138,7 @@ footer {
     cursor: pointer;
 }
 
-@media(max-width: 320px) {
+@media (max-width: 320px) {
     header {
         width: 100%;
         height: 765px;
@@ -2473,7 +2476,7 @@ footer {
     }
 
     .slider__section-1 {
-        background-image: url('./img/slider.png');
+        background-image: url(./img/slider.png);
         width: 28px;
         height: 28px;
         z-index: 31;
@@ -2602,7 +2605,7 @@ footer {
     .section-2 {
         display: flex;
         width: 100%;
-        background-image: url('img/section-2/background.png');
+        background-image: url(img/section-2/background.png);
         background-repeat: no-repeat;
         background-size: cover;
         justify-content: center;
@@ -2678,7 +2681,7 @@ footer {
     }
 
     .slider__section-2 {
-        background-image: url('./img/slider.png');
+        background-image: url(./img/slider.png);
         width: 28px;
         height: 28px;
         z-index: 31;
@@ -2701,7 +2704,7 @@ footer {
     }
 
     .section-3__block {
-        margin-top: 0;
+        margin-top: 0px;
     }
 
     .section-3__our_process {
@@ -2929,7 +2932,7 @@ footer {
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        left: 0;
+        left: 0px;
         top: 18px;
     }
 
@@ -3004,7 +3007,7 @@ footer {
         flex-direction: column;
         align-items: center;
         position: relative;
-        left: 0;
+        left: 0px;
         top: 145px;
         width: auto;
     }
@@ -3038,7 +3041,7 @@ footer {
         align-items: center;
         position: relative;
         left: -305px;
-        top: 0;
+        top: 0px;
     }
 
     .section-3__third-step_brain {
@@ -3210,7 +3213,7 @@ footer {
     }
 
     .slider__section-3 {
-        background-image: url('./img/slider.png');
+        background-image: url(./img/slider.png);
         width: 28px;
         height: 28px;
         z-index: 31;
@@ -3558,7 +3561,7 @@ footer {
         margin-top: -100px;
         justify-content: center;
         flex-direction: column;
-        padding-left: 0;
+        padding-left: 0px;
     }
 
     .section-6_left-block {
@@ -3660,8 +3663,11 @@ footer {
         margin-right: auto;
         margin-top: 50px;
         border-top: 1px solid #adadad;
-        padding: 25px 12px;
+        padding-top: 25px;
         border-bottom: 1px solid #adadad;
+        padding-bottom: 25px;
+        padding-left: 12px;
+        padding-right: 12px;
         width: 90%;
         justify-content: space-around;
         flex-direction: column;
@@ -3791,7 +3797,7 @@ footer {
         display: flex;
         justify-content: center;
         height: 200px;
-        margin-top: 0;
+        margin-top: 0px;
         margin-bottom: 0;
         width: 100%;
     }
@@ -3822,7 +3828,7 @@ footer {
     .bike {
         margin-right: 0;
         width: 90%;
-        margin-bottom: 0;
+        margin-bottom: 0px;
     }
 
     .bike:hover .section-7_background_hover {
@@ -3843,7 +3849,7 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 0;
+        margin-top: 0px;
         flex-direction: column;
         flex-wrap: wrap;
     }
@@ -3925,7 +3931,7 @@ footer {
     .link_section-7_package:last-child {
         margin-right: 0;
         width: 90%;
-        margin-top: 0;
+        margin-top: 0px;
     }
 
     .colors-pic {
@@ -4155,7 +4161,7 @@ footer {
         width: 100%;
         height: 400px;
         margin-top: 160px;
-        background-image: url('img/section-10/background.jpg');
+        background-image: url(img/section-10/background.jpg);
         justify-content: center;
         align-items: flex-start;
         background-repeat: no-repeat;
@@ -4163,7 +4169,7 @@ footer {
     }
 }
 
-@media(min-width: 375px) {
+@media (min-width: 375px) {
     header {
         width: 100%;
         height: 765px;
@@ -4543,7 +4549,7 @@ footer {
     }
 
     .slider__section-1 {
-        background-image: url('./img/slider.png');
+        background-image: url(./img/slider.png);
         width: 28px;
         height: 28px;
         z-index: 31;
@@ -4562,7 +4568,7 @@ footer {
     .section-2 {
         display: flex;
         width: 100%;
-        background-image: url('img/section-2/background.png');
+        background-image: url(img/section-2/background.png);
         background-repeat: no-repeat;
         background-size: cover;
         justify-content: center;
@@ -4601,8 +4607,8 @@ footer {
 
     .section-2__expand_your_business {
         font-size: 30px;
-        margin-bottom: 0;
-        margin-top: 0;
+        margin-bottom: 0px;
+        margin-top: 0px;
         font-family: "PFEncoreSansPro";
         color: #ffffff;
         font-weight: bold;
@@ -5153,7 +5159,7 @@ footer {
     }
 
     .slider__section-3 {
-        background-image: url('./img/slider.png');
+        background-image: url(./img/slider.png);
         width: 28px;
         height: 28px;
         z-index: 31;
@@ -5294,7 +5300,7 @@ footer {
         display: flex;
         position: relative;
         width: 80%;
-        margin-top: 0;
+        margin-top: 0px;
         align-self: center;
         justify-content: center;
         left: 0;
@@ -5353,7 +5359,7 @@ footer {
         display: flex;
         width: 100%;
         background: #ffffff;
-        margin-top: 0;
+        margin-top: 0px;
         position: relative;
         height: auto;
     }
@@ -5377,7 +5383,7 @@ footer {
 
     .advertising-block_right-block {
         margin-top: 70px;
-        margin-left: 0;
+        margin-left: 0px;
         display: flex;
         flex-direction: column;
         align-items: end;
@@ -5561,8 +5567,8 @@ footer {
 
     .section-7_list {
         padding-bottom: 25px;
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 0px;
+        padding-right: 0px;
         width: 90%;
         flex-direction: column;
     }
@@ -5704,7 +5710,7 @@ footer {
     .bike {
         margin-right: 0;
         width: 100%;
-        margin-bottom: 0;
+        margin-bottom: 0px;
     }
 
     .bike:hover .section-7_background_hover {
@@ -5723,7 +5729,7 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 0;
+        margin-top: 0px;
         flex-direction: column;
         flex-wrap: wrap;
     }
@@ -6038,7 +6044,7 @@ footer {
         width: 100%;
         height: 400px;
         margin-top: 160px;
-        background-image: url('img/section-10/background.jpg');
+        background-image: url(img/section-10/background.jpg);
         justify-content: center;
         align-items: flex-start;
         background-repeat: no-repeat;
@@ -6046,7 +6052,7 @@ footer {
     }
 }
 
-@media(min-width: 425px) {
+@media (min-width: 425px) {
     header {
         width: 100%;
         height: 660px;
@@ -6197,7 +6203,7 @@ footer {
         display: flex;
         width: 100%;
         background: #ffffff;
-        margin-top: 0;
+        margin-top: 0px;
         position: relative;
         height: auto;
     }
@@ -6241,7 +6247,7 @@ footer {
     }
 }
 
-@media(min-width: 768px) {
+@media (min-width: 768px) {
     header {
         width: 100%;
         height: 765px;
@@ -6628,7 +6634,7 @@ footer {
         display: flex;
         width: 100%;
         height: 520px;
-        background-image: url('img/section-2/background.png');
+        background-image: url(img/section-2/background.png);
         background-repeat: no-repeat;
         background-size: cover;
         justify-content: center;
@@ -7038,7 +7044,7 @@ footer {
         align-items: center;
         position: relative;
         left: -305px;
-        top: 0;
+        top: 0px;
     }
 
     .section-3__third-step_brain {
@@ -7111,7 +7117,7 @@ footer {
         align-items: center;
         position: relative;
         top: 90px;
-        left: 0;
+        left: 0px;
     }
 
     .section-3__thourth-step_hand {
@@ -7158,7 +7164,7 @@ footer {
         z-index: 134;
         display: flex;
         position: relative;
-        top: 0;
+        top: 0px;
     }
 
     .section-3_icon-hand {
@@ -7414,7 +7420,7 @@ footer {
         display: flex;
         width: 100%;
         background: #ffffff;
-        margin-top: 0;
+        margin-top: 0px;
         height: 640px;
         flex-direction: column;
         align-items: center;
@@ -7426,8 +7432,11 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 0 auto -30px;
+        margin-left: auto;
+        margin-right: auto;
         flex-direction: column;
+        margin-top: 0;
+        margin-bottom: -30px;
     }
 
     .advertising-block_right-block {
@@ -7628,8 +7637,11 @@ footer {
         margin-right: auto;
         margin-top: 40px;
         border-top: 1px solid #adadad;
-        padding: 10px 12px 25px;
+        padding-top: 10px;
         border-bottom: 1px solid #adadad;
+        padding-bottom: 25px;
+        padding-left: 12px;
+        padding-right: 12px;
         width: 90%;
         justify-content: space-around;
         flex-direction: row;
@@ -8081,7 +8093,7 @@ footer {
     }
 }
 
-@media(min-width: 1024px) {
+@media (min-width: 1024px) {
     header {
         width: 100%;
         height: 765px;
@@ -8265,7 +8277,7 @@ footer {
     }
 
     .slider__header {
-        background-image: url('./img/slider.png');
+        background-image: url(./img/slider.png);
         width: 28px;
         height: 28px;
         z-index: 31;
@@ -8346,7 +8358,7 @@ footer {
     }
 
     .slider__section-1 {
-        background-image: url('./img/slider.png');
+        background-image: url(./img/slider.png);
         width: 28px;
         height: 28px;
         z-index: 31;
@@ -8476,7 +8488,7 @@ footer {
         display: flex;
         width: 100%;
         height: 720px;
-        background-image: url('img/section-2/background.png');
+        background-image: url(img/section-2/background.png);
         background-repeat: no-repeat;
         background-size: cover;
         justify-content: center;
@@ -8566,7 +8578,7 @@ footer {
         width: 100%;
         height: 580px;
         background: #f2f2f2;
-        margin-top: 0;
+        margin-top: 0px;
         position: relative;
     }
 
@@ -8594,7 +8606,7 @@ footer {
         justify-content: center;
         align-items: flex-end;
         position: relative;
-        margin-top: 0;
+        margin-top: 0px;
     }
 
     .section-3__block {
@@ -8998,7 +9010,7 @@ footer {
         justify-content: center;
         align-items: center;
         position: relative;
-        left: 0;
+        left: 0px;
         top: -180px;
     }
 
@@ -9008,7 +9020,7 @@ footer {
         align-items: center;
         position: relative;
         top: 84px;
-        left: 0;
+        left: 0px;
     }
 
     .section-3__thourth-step_hand {
@@ -9102,7 +9114,7 @@ footer {
         display: flex;
         flex-direction: column;
         height: auto;
-        margin-top: 0;
+        margin-top: 0px;
         width: 80%;
     }
 
@@ -9271,7 +9283,7 @@ footer {
         display: flex;
         width: 100%;
         background: #ffffff;
-        margin-top: 0;
+        margin-top: 0px;
         justify-content: center;
         margin-left: auto;
         margin-right: auto;
@@ -9319,7 +9331,7 @@ footer {
         justify-content: center;
         align-items: center;
         position: relative;
-        margin-right: 0;
+        margin-right: 0px;
         width: 40%;
         align-self: center;
         margin-top: 0;
@@ -9345,7 +9357,7 @@ footer {
         height: 420px;
         background: #f2f2f2;
         position: relative;
-        margin-top: 0;
+        margin-top: 0px;
     }
 
     .section-6__marketing-block {
@@ -9484,8 +9496,11 @@ footer {
         margin-right: auto;
         margin-top: 40px;
         border-top: 1px solid #adadad;
-        padding: 0 0 20px;
+        padding-top: 0px;
         border-bottom: 1px solid #adadad;
+        padding-bottom: 20px;
+        padding-left: 0;
+        padding-right: 0;
         width: 100%;
         justify-content: space-around;
         flex-direction: row;
@@ -9847,7 +9862,7 @@ footer {
         width: 227px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 0;
+        margin-top: 0px;
     }
 
     .steve_tracy {
@@ -9932,7 +9947,7 @@ footer {
     }
 }
 
-@media(min-width: 1280px) {
+@media (min-width: 1280px) {
     header {
         width: 100%;
         height: 765px;
@@ -9956,7 +9971,7 @@ footer {
     }
 }
 
-@media(min-width: 1340px) {
+@media (min-width: 1340px) {
     header {
         width: 100%;
         height: 765px;
@@ -10336,7 +10351,7 @@ footer {
         display: flex;
         width: 100%;
         height: 680px;
-        background-image: url('img/section-2/background.png');
+        background-image: url(img/section-2/background.png);
         background-repeat: no-repeat;
         background-size: cover;
         justify-content: center;
@@ -10412,7 +10427,7 @@ footer {
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        margin-top: 0;
+        margin-top: 0px;
     }
 
     .slider__section-3 {
@@ -10426,7 +10441,7 @@ footer {
         width: 100%;
         height: 580px;
         background: #f2f2f2;
-        margin-top: 0;
+        margin-top: 0px;
         flex-direction: column;
         position: relative;
     }
@@ -10886,7 +10901,7 @@ footer {
         z-index: 133;
         display: flex;
         position: relative;
-        top: 0;
+        top: 0px;
     }
 
     .section-3__thourth-step_central-text {
@@ -11112,7 +11127,7 @@ footer {
         display: flex;
         width: 100%;
         background: #ffffff;
-        margin-top: 0;
+        margin-top: 0px;
         justify-content: center;
         position: relative;
     }
@@ -11196,7 +11211,7 @@ footer {
         height: 420px;
         background: #f2f2f2;
         position: relative;
-        margin-top: 0;
+        margin-top: 0px;
         justify-content: center;
     }
 
@@ -11372,7 +11387,7 @@ footer {
         flex-direction: row;
         height: auto;
         justify-content: space-around;
-        margin-top: 0;
+        margin-top: 0px;
     }
 
     .link_section-7_package {
@@ -11610,7 +11625,7 @@ footer {
     }
 
     .section-8 {
-        margin-top: 0;
+        margin-top: 0px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -11683,7 +11698,7 @@ footer {
         width: 227px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 0;
+        margin-top: 0px;
     }
 
     .steve_tracy {
@@ -11769,7 +11784,7 @@ footer {
     }
 }
 
-@media(min-width: 1840px) {
+@media (min-width: 1840px) {
     header {
         width: 100%;
         height: 765px;
@@ -12036,7 +12051,7 @@ footer {
     }
 
     .slider__section-1 {
-        background-image: url('./img/slider.png');
+        background-image: url(./img/slider.png);
         width: 28px;
         height: 28px;
         z-index: 31;
@@ -12163,7 +12178,7 @@ footer {
         display: flex;
         width: 100%;
         height: 570px;
-        background-image: url('img/section-2/background.png');
+        background-image: url(img/section-2/background.png);
         background-repeat: no-repeat;
         background-size: cover;
         justify-content: center;
@@ -12262,7 +12277,7 @@ footer {
         width: 100%;
         height: 580px;
         background: #f2f2f2;
-        margin-top: 0;
+        margin-top: 0px;
     }
 
     .section-4__Landing_Pages-block {
@@ -12279,7 +12294,7 @@ footer {
         display: flex;
         justify-content: center;
         flex-direction: column;
-        margin-left: 0;
+        margin-left: 0px;
         margin-right: 0;
     }
 
@@ -12532,7 +12547,7 @@ footer {
         justify-content: center;
         align-items: center;
         position: absolute;
-        left: 0;
+        left: 0px;
         top: -120px;
     }
 
@@ -12844,7 +12859,7 @@ footer {
         width: 10px;
         height: 39px;
         z-index: 160;
-        margin-left: 0;
+        margin-left: 0px;
         order: 1;
         margin-right: 0;
     }
@@ -12958,7 +12973,7 @@ footer {
         display: flex;
         width: 100%;
         background: #ffffff;
-        margin-top: 0;
+        margin-top: 0px;
         justify-content: center;
     }
 
@@ -12971,7 +12986,7 @@ footer {
         margin-right: 0;
         flex-direction: row;
         height: auto;
-        margin-top: 0;
+        margin-top: 0px;
     }
 
     .advertising-block_right-block {
@@ -13026,7 +13041,7 @@ footer {
         height: 420px;
         background: #f2f2f2;
         position: relative;
-        margin-top: 0;
+        margin-top: 0px;
     }
 
     .section-6__marketing-block {
@@ -13205,7 +13220,7 @@ footer {
         flex-direction: row;
         height: auto;
         justify-content: center;
-        margin-top: 0;
+        margin-top: 0px;
     }
 
     .link_section-7_package {
@@ -13214,7 +13229,7 @@ footer {
         margin-top: 0;
         justify-content: center;
         width: 230px;
-        margin-bottom: 0;
+        margin-bottom: 0px;
         margin-right: 12px;
     }
 
@@ -13439,7 +13454,7 @@ footer {
     }
 
     .section-8 {
-        margin-top: 0;
+        margin-top: 0px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -13509,7 +13524,7 @@ footer {
         width: 227px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 0;
+        margin-top: 0px;
     }
 
     .steve_tracy {
@@ -13586,7 +13601,7 @@ footer {
     bottom: 20px;
 }
 
-@media(min-width: 2560px) {
+@media (min-width: 2560px) {
     .section-3__figures-steps {
         display: flex;
         position: relative;
