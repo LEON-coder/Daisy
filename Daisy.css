@@ -4649,6 +4649,12 @@ footer {
         align-items: center;
     }
 
+    .slider__section-2 {
+        height: auto;
+        bottom: 20px;
+        position: absolute;
+    }
+
     .section-3 {
         height: auto;
         width: 100%;
