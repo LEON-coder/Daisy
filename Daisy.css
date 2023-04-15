@@ -97,6 +97,22 @@ header {
     display: flex;
 }
 
+.header__nav-list_mobile {
+    display: none;
+}
+
+.header__nav-list_mobile {
+    display: none;
+}
+
+.mobile_menu-block {
+    display: none;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+.open {   
+    display: none;
+}
 .header__item {
     font-size: 16px;
     font-family: "PFEncoreSansPro";
@@ -156,13 +172,25 @@ header {
 
 .header_clients-2 {
     font-size: 24px;
-    font-family: "PFEncoreSansPro";
-    color: rgb(255, 255, 255);
+    font-family: "PFEncoreSansPro";    
+    color:#ffffff;
     line-height: 1.083;
     text-align: center;
     z-index: 18;
     margin-top: 32px;
 }
+
+.business {   
+  font-size: 51px;
+  font-family: "PFEncoreSansPro";
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 0.706;  
+  z-index: 17;
+}
+
+
 
 .header__link-block {
     display: flex;
@@ -10746,22 +10774,34 @@ footer {
     .header__item:hover {
         border-bottom: solid #fc635e;
     }
-    .header__central_block {
-        margin-top: 218px;
-        text-align: center;
-    }
-    .header_clients {
+   .header__central_block {
+    margin-top: 140px;
+    text-align: center;
+}
+   .header_clients {
+    font-size: 51px;
+    font-family: "PFEncoreSansPro";
+    color: rgb(252, 99, 94);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.706;
+    z-index: 9;
+    display: flex;
+    align-items: center;
+    width: 1000px;
+    justify-content: space-around;
+}
+    .clients {
+        display: flex;
         font-size: 51px;
         font-family: "PFEncoreSansPro";
         color: rgb(252, 99, 94);
         font-weight: bold;
         text-transform: uppercase;
         line-height: 0.706;
-        z-index: 9;
-        display: flex;
-        align-items: center;
-        align-items: center;
+        z-index: 17;
     }
+
     .header_clients:after {
         content: "";
         background-color: rgb(255, 255, 255);
@@ -10770,7 +10810,7 @@ footer {
         height: 8px;
         z-index: 21;
         display: flex;
-        margin-left: 0;
+        margin-left: 10px;
     }
     .header_clients:before {
         content: "";
@@ -10779,8 +10819,17 @@ footer {
         width: 107px;
         height: 8px;
         z-index: 21;
-        margin-right: 0;
+        margin-right: 10px;
         display: flex;
+    }
+
+    .mobile_menu-block {
+        display: none;
+        margin-top: 30px;
+        margin-right: 50px;
+    }
+    .open {   
+        display: none;
     }
     .header_clients-2 {
         font-size: 24px;

@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'PF Encore Sans Pro';
-    src: local('PF Encore Sans Pro Medium'), local('PF-Encore-Sans-Pro-Medium'),
-        url('PFEncoreSansPro-Medium.woff2') format('woff2'),
-        url('PFEncoreSansPro-Medium.woff') format('woff'),
-        url('PFEncoreSansPro-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-  }
