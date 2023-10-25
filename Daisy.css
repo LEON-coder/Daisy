@@ -30,6 +30,7 @@
 body {
     width     : 100%;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 header {
@@ -101,9 +102,7 @@ header {
     display: none;
 }
 
-.header__nav-list_mobile {
-    display: none;
-}
+
 
 .mobile_menu-block {
     display     : none;
@@ -711,12 +710,10 @@ header {
 }
 
 .section-3__first-step {
-    margin-top     : 154px;
-    display        : flex;
-    justify-content: center;
-    flex-direction : column;
-    align-items    : center;
-    position       : relative;
+    margin-top: 74px;
+    position  : relative;
+    left      : -170px;
+    transition: 1s;
 }
 
 .section-3__hexagon {
@@ -819,11 +816,8 @@ header {
 
 .section-3__photo {
     position: relative;
-    width   : 416px;
     height  : 314px;
-    z-index : 100;
-    top     : 41px;
-    left    : -442px;
+    left    : -140px;
 }
 
 .section-3__picture {
@@ -865,13 +859,10 @@ header {
 }
 
 .section-3__second-step {
-    display        : flex;
-    justify-content: center;
-    flex-direction : column;
-    align-items    : center;
-    position       : relative;
-    left           : -273px;
-    top            : 131px;
+    width     : 30%;
+    margin-top: -36px;
+    left      : 100px;
+    top       : -361px;
 }
 
 .section-3__second-step_figure {
@@ -2100,6 +2091,22 @@ footer {
     cursor         : pointer;
 }
 
+.advantage_block-pic_figure-back--frame {
+    position       : absolute;
+    display        : flex;
+    justify-content: center;
+    z-index        : 2;
+    align-self     : center;
+}
+
+.advantage_block-picslider__section-5 {
+    margin-left : auto;
+    margin-right: auto;
+    margin-top  : 0;
+    position    : absolute;
+    bottom      : 20px;
+}
+
 @media(min-width:320px) {
     header {
         height     : 700px;
@@ -2270,7 +2277,7 @@ footer {
         left              : 0px;
         top               : 0;
         height            : 100%;
-        background        : grey;
+        background        : black;
         z-index           : 400;
         transition        : 1s ease-in-out;
         -webkit-transition: 1s ease-in-out;
@@ -2280,7 +2287,7 @@ footer {
         justify-content   : center;
         display           : flex;
         align-items       : center;
-        opacity           : 1;
+        opacity           : 0.9;
     }
 
     .line1--active {
@@ -2712,7 +2719,7 @@ footer {
     }
 
     .section-3 {
-        height        : 1430px;
+        height        : auto;
         width         : 100%;
         display       : flex;
         flex-direction: column;
@@ -2785,6 +2792,9 @@ footer {
         flex-direction : column;
         width          : 90%;
         align-items    : center;
+        margin-top     : 100px;
+        margin-bottom  : 170px;
+        height         : auto;
     }
 
     .first-step {
@@ -2796,6 +2806,53 @@ footer {
         display        : flex;
         justify-content: center;
     }
+
+    .section-3__first-step {
+        margin-top     : 0px;
+        left           : 0;
+        display        : flex;
+        justify-content: center;
+        flex-direction : column;
+        align-items    : center;
+        position       : relative;
+    }
+
+    .section-3__first-step_frame {
+        display        : flex;
+        justify-content: center;
+        flex-direction : column;
+        align-items    : center;
+        position       : absolute;
+    }
+
+    .section-3__first-step_figure {
+        z-index : 3;
+        left    : -22px;
+        top     : -45px;
+        position: absolute;
+    }
+
+    .section-3__first-step_bulb-block {
+        display        : flex;
+        justify-content: center;
+        align-items    : center;
+        position       : relative;
+        left           : -85px;
+        top            : -10px;
+        z-index        : 10;
+    }
+
+    .section-3__first-step_bulb {
+        width          : 23px;
+        height         : 21px;
+        z-index        : 120;
+        display        : flex;
+        justify-content: center;
+        align-items    : center;
+        position       : absolute;
+    }
+
+    .section-3__first-step_ellipse {}
 
     .section-3__hexagon {
         display        : flex;
@@ -2885,6 +2942,8 @@ footer {
         display        : flex;
         justify-content: center;
         align-items    : center;
+        margin-top     : 30px;
+        transition     : 1.5s;
     }
 
     .section-3__picture {
@@ -2929,9 +2988,15 @@ footer {
     }
 
     .section-3__second-step {
-        z-index: 18;
-        left   : 0;
-        top    : 14px;
+        z-index        : 18;
+        left           : 0;
+        top            : 14px;
+        transition     : 2s;
+        display        : flex;
+        justify-content: center;
+        flex-direction : column;
+        align-items    : center;
+        position       : relative;
     }
 
     .section-3__second-step_monitor-block {
@@ -2945,9 +3010,10 @@ footer {
     }
 
     .section-3__second-step_figure {
-        z-index: 3;
-        left   : -25px;
-        top    : -62px;
+        z-index : 3;
+        left    : 0;
+        top     : 0;
+        position: absolute;
     }
 
     .section-3__second-step_ellipse {
@@ -3001,8 +3067,10 @@ footer {
     .section-3__third-step {
         left      : 0;
         top       : 138px;
-        transition: 3s;
+        transition: 2.5s;
     }
+
+    .section-3__second-step_first-step {}
 
     .section-3__third-step_frame {
         position: absolute;
@@ -3080,11 +3148,11 @@ footer {
     }
 
     .section-3__thourth-step {
-        transition: 1s;
         margin-top: 283px;
         left      : 0;
         top       : 0;
         position  : inherit;
+        transition: 4s;
     }
 
     .section-3__thourth-step_hand-block {
@@ -3211,11 +3279,8 @@ footer {
     }
 
     .section-4 {
-        display   : flex;
-        width     : 100%;
         height    : 970px;
-        background: #f2f2f2;
-        margin-top: 40px;
+        margin-top: 50px;
         position  : relative;
     }
 
@@ -3419,7 +3484,6 @@ footer {
         position: absolute;
         z-index : 4;
         top     : 10px;
-        left    : 35px;
     }
 
     .Screenshot-Thunderbolt_Display {
@@ -4626,7 +4690,6 @@ footer {
     }
 
     .section-3 {
-        height    : 890px;
         margin-top: 0px;
     }
 
@@ -4688,20 +4751,13 @@ footer {
     }
 
     .section-3__figures-steps {
-        display        : flex;
-        justify-content: space-around;
-        position       : relative;
-        flex-direction : column;
-        width          : 80%;
+        width        : 80%;
+        margin-top   : 100px;
+        margin-bottom: 0;
     }
 
     .section-3__first-step {
-        margin-top     : 114px;
-        display        : flex;
-        justify-content: center;
-        flex-direction : column;
-        align-items    : center;
-        position       : relative;
+        margin-top: 0px;
     }
 
     .section-3__hexagon {
@@ -4729,14 +4785,7 @@ footer {
     }
 
     .section-3__photo {
-        width          : 100%;
-        z-index        : 9;
-        top            : 0;
-        left           : 0;
-        display        : flex;
-        justify-content: center;
-        align-items    : center;
-        margin-top     : -10px;
+        margin-top: 0px;
     }
 
     .ellipse:hover .section-3__bulb {
@@ -4868,18 +4917,15 @@ footer {
     }
 
     .section-3__second-step_monitor-block {
-        display        : flex;
-        justify-content: center;
-        align-items    : center;
-        position       : absolute;
-        left           : 87px;
-        top            : -125px;
-        z-index        : 10;
+        left: 0px;
+        top : -125px;
     }
 
     .section-3__second-step_figure {
         position: absolute;
         z-index : 3;
+        left    : -45px;
+        top     : -62px;
     }
 
     .section-3__second-step_ellipse {
@@ -4929,15 +4975,11 @@ footer {
     }
 
     .section-3__third-step {
-        display        : flex;
-        justify-content: center;
-        flex-direction : column;
-        align-items    : center;
-        position       : relative;
-        left           : 0px;
-        top            : 125px;
-        width          : auto;
+        left      : 0;
+        top       : 124px;
+        transition: 2.5s;
     }
+
 
     .section-3__third-step_frame {
         position: absolute;
@@ -4982,8 +5024,6 @@ footer {
 
     .section-3__third-step_figure-top {
         position: absolute;
-        left    : 63px;
-        top     : -64px;
         height  : 154px;
         z-index : 107;
     }
@@ -5016,15 +5056,6 @@ footer {
         justify-content  : center;
     }
 
-    .section-3__thourth-step {
-        display        : flex;
-        justify-content: center;
-        flex-direction : column;
-        align-items    : center;
-        left           : 88px;
-        top            : 986px;
-        position       : absolute;
-    }
 
     .section-3__thourth-step_hand-block {
         display        : flex;
@@ -5091,6 +5122,14 @@ footer {
         z-index : 119;
     }
 
+    .section-3__thourth-step {
+        transition: 1s;
+        margin-top: 270px;
+        left      : 0;
+        top       : 0;
+        position  : inherit;
+    }
+
     .section-3__thourth-step_ellipse {
         border-radius: 50%;
         width        : 38px;
@@ -5124,17 +5163,12 @@ footer {
     }
 
     .slider__section-3 {
-        background-image: url(./img/slider.png);
-        width           : 28px;
-        height          : 28px;
-        z-index         : 31;
-        bottom          : -260px;
-        position        : absolute;
+        bottom: -180px;
     }
 
     .section-4 {
         height    : auto;
-        margin-top: 300px;
+        margin-top: 230px;
     }
 
     .section-4__block {
@@ -5292,12 +5326,9 @@ footer {
     }
 
     .Screenshot-MacBook {
-        position       : absolute;
-        z-index        : 4;
         display        : flex;
         justify-content: center;
         align-self     : center;
-        left           : 82px;
     }
 
     .Screenshot-Thunderbolt_Display {
@@ -6004,65 +6035,23 @@ footer {
     }
 
     .section-3__line-top-photo {
-        position : absolute;
-        width    : 127px;
-        height   : 57px;
-        z-index  : 101;
-        top      : 345px;
-        left     : 165px;
-        transform: rotate(126deg);
+        top : 226px;
+        left: 176px;
     }
 
     .section-3__second-step {
-        z-index        : 18;
-        display        : flex;
-        justify-content: center;
-        flex-direction : column;
-        align-items    : center;
-        left           : 0;
-        top            : 81px;
-    }
-
-    .section-3__second-step_figure {
-        left: 82px;
-        top : -64px;
-    }
-
-
-    .section-3__second-step_monitor-block {
-        display        : flex;
-        justify-content: center;
-        align-items    : center;
-        position       : absolute;
-        left           : 107px;
-        top            : -122px;
-        z-index        : 10;
-    }
-
-    .section-3__photo {
-        position: relative;
-        width   : 100%;
-        height  : 314px;
-        z-index : 9;
-        top     : -228px;
-        left    : -236px;
+        left      : 0px;
+        top       : 0px;
+        margin-top: 35px;
     }
 
     .section-3__third-step {
-        top: 205px;
+        top: 123px;
     }
 
-    .section-3__third-step_figure-top {
-        position: absolute;
-        left    : 83px;
-        top     : -64px;
-        height  : 154px;
-        z-index : 107;
-    }
 
     .section-3__thourth-step {
-        left: 106px;
-        top : 1005px;
+        margin-top: 267px;
     }
 
     .section-3__thourth-step_text {
@@ -6075,13 +6064,13 @@ footer {
     }
 
 
-    .slider__section-3 {
-        left  : 46%;
-        bottom: -270px;
-    }
-
     .section-4__Gadgets-block {
         margin-top: 120px;
+    }
+
+    .section-4 {
+        height    : auto;
+        margin-top: 230px;
     }
 
     .Gadgets-block__iPad-block {
@@ -6615,15 +6604,12 @@ footer {
         margin-top       : 80px;
     }
 
-    .slider__section-2 {}
-
     .section-3 {
-        height        : 900px;
-        width         : 100%;
-        display       : flex;
-        flex-direction: column;
-        margin-top    : 340px;
-        position      : relative;
+        width        : 100%;
+        display      : flex;
+        margin-top   : 340px;
+        position     : relative;
+        margin-bottom: 50px;
     }
 
     .section-3__block {
@@ -6692,13 +6678,7 @@ footer {
     }
 
     .section-3__first-step {
-        margin-top     : 134px;
-        display        : flex;
-        justify-content: center;
-        flex-direction : column;
-        align-items    : center;
-        position       : relative;
-        left           : -220px;
+        margin-top: 40px;
     }
 
     .section-3__hexagon {
@@ -6803,20 +6783,13 @@ footer {
     }
 
     .section-3__photo {
-        position: relative;
-        width   : 416px;
-        height  : 314px;
-        z-index : 100;
-        top     : -230px;
-        left    : -300px;
-    }
-
-    .section-3__picture {
-        position: absolute;
-        height  : 314px;
-        z-index : 100;
-        top     : 242px;
-        left    : 329px;
+        position  : relative;
+        width     : 416px;
+        height    : auto;
+        z-index   : 100;
+        top       : 0;
+        left      : 0;
+        margin-top: 60px;
     }
 
     .section-3__hexagon-2 {
@@ -6832,14 +6805,18 @@ footer {
         z-index         : 99;
     }
 
+
+    .section-3__second-step_first-step {}
+
     .section-3__line-top-photo {
-        position : absolute;
-        width    : 47px;
-        height   : 57px;
-        z-index  : 101;
-        top      : 75px;
-        left     : 400px;
-        transform: rotate(-200deg);
+        top              : -52px;
+        left             : 121px;
+        transform        : rotate(-125deg);
+        -webkit-transform: rotate(-185deg);
+        -moz-transform   : rotate(-180deg);
+        -ms-transform    : rotate(-180deg);
+        -o-transform     : rotate(-180deg);
+        width            : 84px;
     }
 
     .section-3__second-step_frame {
@@ -6854,27 +6831,9 @@ footer {
         justify-content: center;
         flex-direction : column;
         align-items    : center;
-        left           : 10px;
-        top            : -356px;
+        margin-top     : 60px;
     }
 
-    .section-3__second-step_monitor-block {
-        display        : flex;
-        justify-content: center;
-        align-items    : center;
-        position       : absolute;
-        left           : 244px;
-        top            : -120px;
-        z-index        : 45;
-    }
-
-    .section-3__second-step_figure {
-        width   : 90px;
-        position: absolute;
-        height  : 154px;
-        left    : 219px;
-        top     : -66px;
-    }
 
     .section-3__second-step_ellipse {
         border-radius   : 50%;
@@ -6923,14 +6882,7 @@ footer {
     }
 
     .section-3__third-step {
-        display        : flex;
-        justify-content: center;
-        flex-direction : column;
-        align-items    : center;
-        position       : relative;
-        left           : 251px;
-        top            : -582px;
-        width          : 50%;
+        width: 50%;
     }
 
     .section-3__third-step_frame {
@@ -7010,14 +6962,9 @@ footer {
         justify-content  : center;
     }
 
-    .section-3__thourth-step {
-        display        : flex;
-        justify-content: center;
-        flex-direction : column;
-        align-items    : center;
-        left           : 470px;
-        top            : 163px;
-        position       : absolute;
+    .section-3__picture {
+        height    : 314px;
+        margin-top: 0;
     }
 
     .section-3__thourth-step_hand-block {
@@ -7025,8 +6972,6 @@ footer {
         justify-content: center;
         align-items    : center;
         position       : relative;
-        left           : -45px;
-        top            : -156px;
     }
 
     .section-3__thourth-step_ellipse-bottom-block {
@@ -7129,22 +7074,14 @@ footer {
     }
 
     .slider__section-3 {
-        display      : flex;
-        align-self   : center;
-        justify-items: center;
-        bottom       : 380px;
+        bottom: 0;
     }
 
     .section-4 {
-        display       : flex;
-        width         : 100%;
-        height        : 860px;
-        background    : #f2f2f2;
-        position      : relative;
-        margin-top    : -350px;
-        flex-direction: column;
-        justify-items : center;
-        align-items   : center;
+        width     : 100%;
+        height    : 860px;
+        position  : relative;
+        margin-top: 0;
     }
 
     .section-4__block {
@@ -8471,13 +8408,14 @@ footer {
         flex-direction: column;
         height        : auto;
         margin-top    : 0;
+        margin-bottom : 200px;
     }
 
     .slider__section-3 {
         margin-left : auto;
         margin-right: auto;
         position    : absolute;
-        bottom      : 30px;
+        bottom      : -170px;
     }
 
     .section-4 {
@@ -8583,15 +8521,8 @@ footer {
     }
 
     .section-3__first-step {
-        margin-top     : 194px;
-        display        : flex;
-        justify-content: center;
-        flex-direction : column;
-        align-items    : center;
-        position       : relative;
-        width          : 40%;
-        left           : 133px;
-        top            : -107px;
+        margin-top: 74px;
+        position  : relative;
     }
 
     .section-3__hexagon {
@@ -8609,6 +8540,25 @@ footer {
         position       : absolute;
         left           : 143px;
         top            : -40px;
+    }
+
+    .section-3__first-step_figure {
+        position: absolute;
+        z-index : 3;
+        left    : -23px;
+        top     : -60px;
+    }
+
+    .section-3__first-step_monitor-block {
+        width          : 23px;
+        height         : 21px;
+        z-index        : 120;
+        display        : flex;
+        justify-content: center;
+        align-items    : center;
+        position       : absolute;
+        top            : -120px;
+        left           : 2px;
     }
 
     .section-3__bulb {
@@ -8697,19 +8647,15 @@ footer {
 
     .section-3__photo {
         position: relative;
-        width   : 416px;
         height  : 314px;
-        z-index : 100;
-        top     : -335px;
-        left    : -221px;
     }
 
     .section-3__picture {
         position: absolute;
         height  : 314px;
         z-index : 100;
-        top     : 242px;
-        left    : 329px;
+        top     : -48px;
+        left    : -25px;
     }
 
     .section-3__hexagon-2 {
@@ -8727,12 +8673,12 @@ footer {
 
     .section-3__line-top-photo {
         position : absolute;
-        width    : 67px;
+        width    : 80px;
         height   : 57px;
         z-index  : 101;
-        top      : -70px;
-        left     : 378px;
-        transform: rotate(-191deg);
+        top      : -51px;
+        left     : 125px;
+        transform: rotate(-186deg);
     }
 
     .section-3__second-step_frame {
@@ -8743,13 +8689,16 @@ footer {
     }
 
     .section-3__second-step {
-        display        : flex;
-        justify-content: center;
-        flex-direction : column;
-        align-items    : center;
-        left           : 357px;
-        top            : -496px;
-        width          : 30%;
+        width     : 30%;
+        margin-top: -36px;
+        left      : -230px;
+        top       : -28px;
+    }
+
+    .section-3__second-step_figure {
+        position: absolute;
+        z-index : 3;
+        left    : 64px;
     }
 
     .section-3__second-step_monitor-block {
@@ -8759,14 +8708,6 @@ footer {
         position       : absolute;
         left           : 90px;
         top            : -120px;
-    }
-
-    .section-3__second-step_figure {
-        width   : 90px;
-        position: absolute;
-        height  : 154px;
-        left    : 65px;
-        top     : -64px;
     }
 
     .section-3__second-step_ellipse {
@@ -8816,14 +8757,9 @@ footer {
     }
 
     .section-3__third-step {
-        display        : flex;
-        justify-content: center;
-        flex-direction : column;
-        align-items    : center;
-        position       : relative;
-        left           : 582px;
-        top            : -573px;
-        width          : 20%;
+        width: 20%;
+        top  : -103px;
+        left : 55px;
     }
 
     .section-3__third-step_frame {
@@ -8903,13 +8839,9 @@ footer {
     }
 
     .section-3__thourth-step {
-        display        : flex;
-        justify-content: center;
-        flex-direction : column;
-        align-items    : center;
-        left           : 705px;
-        top            : 260px;
-        position       : absolute;
+        left    : 583px;
+        top     : 364px;
+        position: absolute;
     }
 
     .section-3__thourth-step_hand-block {
@@ -9361,16 +9293,13 @@ footer {
     .section-7 {
         display        : flex;
         justify-content: center;
-        height         : 900px;
+        height         : auto;
         position       : relative;
     }
 
     .section-7__portfolio-block {
-        background    : #ffffff;
-        display       : flex;
-        width         : 938px;
-        flex-direction: column;
-        align-items   : center;
+        width        : 938px;
+        margin-bottom: 100px;
     }
 
     .slider__section-7 {
@@ -9846,7 +9775,7 @@ footer {
     }
 }
 
-@media(min-width: 1280px) {
+@media(min-width: 1260px) {
     header {
         width            : 100%;
         height           : 765px;
@@ -9867,6 +9796,45 @@ footer {
         position       : relative;
         flex-direction : column;
         margin-top     : 50px;
+    }
+
+    .section-3__first-step {
+        margin-top: 0;
+        position  : relative;
+        left      : -410px;
+        top       : 220px;
+    }
+
+    .section-3__second-step {
+        width     : 30%;
+        margin-top: 0;
+        left      : -154px;
+        top       : -186px;
+        position  : relative;
+    }
+
+    .section-3__third-step {
+        width: 20%;
+        top  : -413px;
+        left : -69px;
+    }
+
+    .section-3__thourth-step {
+        left    : 583px;
+        top     : -53px;
+        position: absolute;
+    }
+
+    .section-3__photo {
+        position: relative;
+        height  : 314px;
+        left    : -238px;
+        top     : 220px;
+    }
+
+    .section-3__thourth-step_hand-block {
+        left: -130px;
+        top : -108px;
     }
 }
 
@@ -10319,15 +10287,6 @@ footer {
         bottom: 50px;
     }
 
-    .section-3 {
-        width          : 100%;
-        display        : flex;
-        height         : 841px;
-        justify-content: center;
-        flex-direction : column;
-        align-items    : center;
-        margin-top     : 0;
-    }
 
     .slider__section-3 {
         margin-left : auto;
@@ -10372,7 +10331,7 @@ footer {
     }
 
     .section-3__block {
-        margin-top: 150px;
+        margin-top: 70px;
     }
 
     .section-3__our_process {
@@ -10865,9 +10824,11 @@ footer {
     }
 
     .section-4__block {
-        display       : flex;
-        flex-direction: column;
-        height        : auto;
+        display        : flex;
+        flex-direction : column;
+        height         : auto;
+        justify-content: center;
+        align-items    : center;
     }
 
     .section-4__header {
@@ -11062,13 +11023,7 @@ footer {
     }
 
     .section-5__left-block {
-        display        : flex;
-        justify-content: center;
-        align-items    : center;
-        position       : relative;
-        margin-right   : 0;
-        width          : 100%;
-        margin-top     : 0;
+        width: 50%;
     }
 
     .section-5_MacBook {
@@ -13482,21 +13437,7 @@ footer {
     }
 }
 
-.advantage_block-pic_figure-back--frame {
-    position       : absolute;
-    display        : flex;
-    justify-content: center;
-    z-index        : 2;
-    align-self     : center;
-}
 
-.advantage_block-picslider__section-5 {
-    margin-left : auto;
-    margin-right: auto;
-    margin-top  : 0;
-    position    : absolute;
-    bottom      : 20px;
-}
 
 @media(min-width:2560px) {
     .section-3__figures-steps {
