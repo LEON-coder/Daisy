@@ -1,16 +1,17 @@
 @font-face {
-    font-family: "PFEncoreSansPro-Bold";
+    font-family: "PFEncoreSansPro";
+    font-style : bold;
     src        : local("fonts/PFEncoreSansPro-Bold/PFEncoreSansPro-Bold.woff2");
     src        : local("fonts/PFEncoreSansPro-Bold/PFEncoreSansPro-Bold.woff");
     src        : local("fonts/PFEncoreSansPro-Bold/PFEncoreSansPro-Bold.ttf");
-    src        : local("fonts/PFEncoreSansPro-Bold/PFEncoreSansPro-Bold.woff2");
 }
 
 @font-face {
-    font-family: "PFEncoreSansPro-Medium";
+    font-family: "PFEncoreSansPro";
+    font-style : medium;
     src        : url("/fonts/PFEncoreSansPro-Medium/PFEncoreSansPro-Bold.woff2");
-    src        : url("fonts/PFEncoreSansPro-Medium/PFEncoreSansPro-Medium.woff");
-    src        : url("fonts/PFEncoreSansPro-Medium/PFEncoreSansPro-Medium.ttf");
+    src        : url("/fonts/PFEncoreSansPro-Medium/PFEncoreSansPro-Medium.woff");
+    src        : url("/fonts/PFEncoreSansPro-Medium/PFEncoreSansPro-Medium.ttf");
     src        : local("./fonts/PFEncoreSansPro-Medium/PFEncoreSansPro-Medium.woff2");
 }
 
@@ -57,6 +58,7 @@ header {
     display        : flex;
     justify-content: center;
     align-items    : center;
+    cursor         : pointer;
 }
 
 .header__icon-block {
@@ -100,6 +102,17 @@ header {
 
 .header__nav-list_mobile {
     display: none;
+}
+
+.header__link {
+    font-size      : 16px;
+    font-family    : "PFEncoreSansPro";
+    color          : rgb(255, 255, 255);
+    text-transform : uppercase;
+    line-height    : 2.25;
+    z-index        : 14;
+    text-decoration: none;
+    transition     : 1s;
 }
 
 
@@ -11658,6 +11671,14 @@ footer {
         margin-top     : 52px;
     }
 
+    .header__item {
+        transition        : 0.7s;
+        -webkit-transition: 0.7s;
+        -moz-transition   : 0.7s;
+        -ms-transition    : 0.7s;
+        -o-transition     : 0.7s;
+    }
+
     .header__logo {
         display        : flex;
         justify-content: center;
@@ -11702,18 +11723,6 @@ footer {
         display        : flex;
     }
 
-    .header__item {
-        font-size     : 16px;
-        font-family   : "PFEncoreSansPro";
-        color         : rgb(255, 255, 255);
-        text-transform: uppercase;
-        line-height   : 2.25;
-        margin-right  : 44px;
-        border-bottom : solid transparent;
-        list-style    : none;
-        display       : flex;
-        align-items   : center;
-    }
 
     .header__item:hover {
         border-bottom: solid #fc635e;
