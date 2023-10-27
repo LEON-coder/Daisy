@@ -3441,13 +3441,10 @@ footer {
     }
 
     .Gadgets-block__MacBook-block {
-        display        : flex;
-        position       : relative;
-        width          : 50%;
-        justify-content: center;
-        align-items    : center;
-        top            : 130px;
-        left           : -143px;
+        position: inherit;
+        width   : 100%;
+        top     : 130px;
+        left    : 0;
     }
 
     .MacBook {
@@ -5269,17 +5266,14 @@ footer {
     }
 
     .section-4__Gadgets-block {
-        display        : flex;
-        justify-content: center;
-        position       : relative;
-        margin-top     : -59px;
-        flex-direction : column;
+        margin-top : -59px;
+        align-items: center;
     }
 
     .Gadgets-block__MacBook-block {
         display        : flex;
         position       : relative;
-        width          : 100%;
+        width          : 67%;
         align-items    : center;
         justify-content: center;
         top            : 250px;
@@ -5293,11 +5287,11 @@ footer {
     }
 
     .Gadgets-block__Thunderbolt-Display-block {
-        display   : flex;
-        position  : relative;
-        width     : 80%;
-        margin-top: -30px;
-        align-self: center;
+        display        : flex;
+        width          : 80%;
+        margin-top     : 0px;
+        align-self     : center;
+        justify-content: center;
     }
 
     .Thunderbolt-Display {
@@ -5318,6 +5312,7 @@ footer {
         display        : flex;
         justify-content: center;
         align-self     : center;
+        left           : 0;
     }
 
     .Screenshot-Thunderbolt_Display {
@@ -6069,7 +6064,7 @@ footer {
 
 
     .section-4__Gadgets-block {
-        margin-top: 120px;
+        margin-top: 0px;
     }
 
     .section-4 {
@@ -6082,16 +6077,29 @@ footer {
         margin-top: 120px;
     }
 
+
+    .Gadgets-block__Thunderbolt-Display-block {
+        width          : 80%;
+        margin-top     : 0px;
+        align-self     : center;
+        justify-content: center;
+    }
+
     .Gadgets-block__MacBook-block {
-        display : flex;
-        position: absolute;
-        top     : 70px;
-        left    : 0%;
+        width: 59%;
+        top  : 250px;
     }
 
     .Screenshot_iPad {
         position: absolute;
         top     : -78px;
+    }
+
+    .Screenshot-MacBook {
+        display        : flex;
+        justify-content: center;
+        align-self     : center;
+        left           : 3px;
     }
 
     .slider__section-4 {
